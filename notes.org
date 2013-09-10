@@ -1,0 +1,42 @@
+* Provisions, Quid pro quos
++ Qualitative research,  research that lends itself to statistical analysis,  or requires any kind of data transformation before being analyzed.
+* Reproducible research as bridge
++ Open Data provides direct access to data sources that have been created by all types of institutions (Gov, academic, private sector)
+  - Published in many different ways, Raw data files,  API, SPARQL, sometimes this data is useful,  sometimes it is garbage
++ Open Access "advertises" the research,  but isn't the research itself.
+  - Will need to do obligatory introduction to reproducible as foundation of modern science
+  - Open Access is absolutely vital - it raises the visibility of a paper, research, and improves over all impact [citation?] [fn:1] 
++ The ACTUAL research is the transformed data, and the analysis - sometimes this means data cleanup,  sometimes this means large scale data transformation pipelines like in NLP and machine learning
+  - reproducible research is the bridge between open data and open access it takes open data as an input, and produces papers as an output
+  - shifting from a "publication as research" model the [data + transformation code + analysis + interpretation] as the research changes the meaning of open access to research
+  - This begs an important question - how do we publish this kind of "document"
+  - Not restrained by old journal model - can skip growing pains of online journal model (analogy of 1960's movies that were just filmed theater shows?)
+  - Some have already discussed blogs, social networking etc as possible outcomes,  but metrics in this environment are still emerging
+  - Metrics in the field of software engineering are pretty good though,
+  - In broad strokes,  software engineers produce code and documentation,   researchers produce documentation (in the form of publications)  and code. 
+    - software engineers even have a counterpart to Reproducible research - literate programming.
+  - Key component of reproducible is access to the tools that produced to code and documentation - tie in open source
+* Tools and Metrics
++ Github and github style metrics
++ Sweave
++ Emacs w/org-mode and org-babel
++ Things out there that are interesting,  but don't quite get the job done
+  - Google Docs (highly collaborate, no version control,  no code integration) 
+  - Authorea - (highly collaborative,  focus on academic's needs) 
+  - runmycode.org ( code but no direct integration with "documentation", collaborative but not quite like github)
++ requirements for the ideal process
+  - Open source tools (so barrier to access to those tools is only technical)
+  - allows collaboration across researchers
+  - embeds research (ie. code) directly into the documentation. 
+  - version control (for archiving!) 
+
+
+[fn:1] This could provide an interesting example for github style issue tracking, someone notes that this claim needs a citation,  author finds citation and adds it into the documents 
+
+* Tasks
+** TODO more information about Sweave
+** TODO get more info about SPARQL
+** TODO find quote about the paper being an advertisement for the reserch
+** TODO Does Authorea fit in here?
+https://www.authorea.com/
+
