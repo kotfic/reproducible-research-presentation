@@ -51,12 +51,31 @@ But Technology can also help to solve the problem it is creating.
 
 
 ** Modern Reproducible research
+** Who is doing this?
+*** Stanford Group
+Jon Claerbout \\
+David Donoho
+*** Literate Programing
+Donald Knuth
+*** Bioinformatics and statistics heavy biology
+*** Computational Statisticians and the R Community
+Friedrich Leisch
+*** Emacs and Org-Babel Community
 ** 
+#+BEGIN_QUOTE
 “The idea is: An article about computational science in a scientific
 publication is not the scholarship itself, it is merely advertising of the
 scholarship. The actual scholarship is the complete ... set of
-instructions [and data] which generated the figures.” David Donoho,
-1998.
+instructions [and data] which generated the figures.” 
+David Donoho, 1998.
+#+END_QUOTE
 
 
 * Examples
+#+BEGIN_SRC ditaa :file img/hello-world-round.png :cmdline -r
++--------------+
+|              |
+| Hello World! |
+|              |
++--------------+
+#+END_SRC

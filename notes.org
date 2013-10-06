@@ -46,7 +46,12 @@
 https://www.authorea.com/
 
 * Papers to Read
-
 [[id:a54a04a8-aa72-45b5-bd93-6835e948357a][Knuth, Donald Ervin :: Literate programming (1984)]]
+[[id:39da92be-f1e4-48e4-8efd-7711e53a958d][Hothorn, Torsten and Leisch, Friedrich :: Case studies in reproducibility (2011)]]
+[[id:f4bdd44c-833e-4f7f-b752-3ee8bc92df9d][Peng, Roger D. :: Reproducible Research in Computational Science (2011)]]
 [[id:358b6e1e-0898-4ef9-8074-4e869fa5774b][David Donoho and Arian Maleki and Inam Rahman and Morteza Shahram and Victoria Stodden :: 15 Years of Reproducible Research in Computational Harmonic Analysis (2008)]]
 [[id:67c28701-807e-4fac-9f1b-cc5562ed0207][Stodden, Victoria :: Enabling reproducible research: licensing for scientific innovation (2009)]]
+
+- M. Schwab, N. Karrenbach, J. Claerbout, Making scientific computations reproducible. Comput. Sci. Eng. 2, 61 (2000). Search Google Scholar
+- C. Laine, S. N. Goodman, M. E. Griswold, H. C. Sox, Reproducible research: Moving toward research the public can really trust. Ann. Intern. Med. 146, 450 (2007). Medline
+- G. King, Replication, Replication. PS: Polit. Sci. Polit. 28, 444 (1995). CrossRef
