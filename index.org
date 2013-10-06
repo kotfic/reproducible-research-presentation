@@ -1,0 +1,48 @@
+#+Title: Reproducible research: open access, open data, open tools and metrics
+#+Author: Christopher Kotfila
+#+Email: ckotfila@albany.edu
+#+OPTIONS: toc:nil
+
+#+REVEAL_ROOT: revealjs/
+#+REVEAL_HLEVEL: 2
+
+* Introduction
+Christopher Kotfila\\
+PhD student - Information Science Department\\
+College of Computing and Information\\
+ckotfila@albany.edu \\
+@kotfic
+** Who Am I?
+#+BEGIN_NOTES
+Graduated last spring with an MSIS from here at UAlbany
+
+Focused primarily on scholarly communication and open access
+
+Last 10 years - professional software developer
+
+both in private sector doing web application development
+
+and in academia as a research assistant. 
+#+END_NOTES
+** Thanks to Victoria Stoden
+Some of the Introductory material here pulls from Victoria Stoden's Presentation at the Open Knowledge Foundation's 2013 Conference
+** Objectives
+#+BEGIN_NOTES
+I'm hoping to use this presentation to convince you that software engineers and researchers have similar problems
+
+#+END_NOTES
+** That's a long title
+Are you really going to talk about all that in 30 minutes?
+
+#+BEGIN_NOTES
+So the answer of course is no. 
+
+This talk is going to focus on reproducible research 
+
+cast it in the light of some solved problems in software engineering
+#+END_NOTES
+
+* Reproducibility
+[[img/402px-1665_phil_trans_vol_i_title.png]]
+
+* 
