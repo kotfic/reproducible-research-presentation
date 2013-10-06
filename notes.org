@@ -1,3 +1,5 @@
+#+REVEAL_ROOT: revealjs/
+
 * Provisions, Quid pro quos
 + Qualitative research,  research that lends itself to statistical analysis,  or requires any kind of data transformation before being analyzed.
 * Reproducible research as bridge
