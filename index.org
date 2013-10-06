@@ -1,7 +1,7 @@
 #+Title: Reproducible research: open access, open data, open tools and metrics
 #+Author: Christopher Kotfila
 #+Email: ckotfila@albany.edu
-#+OPTIONS: toc:nil
+#+OPTIONS: toc:nil num:nil
 
 #+REVEAL_ROOT: revealjs/
 #+REVEAL_HLEVEL: 2
