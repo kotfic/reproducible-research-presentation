@@ -43,6 +43,5 @@ cast it in the light of some solved problems in software engineering
 #+END_NOTES
 
 * Reproducibility
-[[img/402px-1665_phil_trans_vol_i_title.png]]
-
+[[file:img/402px-1665_phil_trans_vol_i_title.png]]
 * 
