@@ -1,4 +1,4 @@
-*sc#+Title: Reproducible research: open access, open data, open tools and metrics
+#+Title: Reproducible research: open access, open data, open tools and metrics
 #+Author: Christopher Kotfila
 #+Email: ckotfila@albany.edu
 #+OPTIONS: toc:nil num:nil
