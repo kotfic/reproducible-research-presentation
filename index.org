@@ -44,4 +44,19 @@ cast it in the light of some solved problems in software engineering
 
 * Reproducibility
 [[file:img/402px-1665_phil_trans_vol_i_title.png]]
-* 
+** TODO Notes about early goals of reproducability
+Printing press is the technology that enables the goals of reproducability (as Shirky poitns out - some 150 years later)
+Internet and modern computing is the technology that creates the current threat to the =Credability= of the research process
+But Technology can also help to solve the problem it is creating.
+
+
+** Modern Reproducible research
+** 
+“The idea is: An article about computational science in a scientific
+publication is not the scholarship itself, it is merely advertising of the
+scholarship. The actual scholarship is the complete ... set of
+instructions [and data] which generated the figures.” David Donoho,
+1998.
+
+
+* Examples

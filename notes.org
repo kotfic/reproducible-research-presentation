@@ -36,9 +36,17 @@
 [fn:1] This could provide an interesting example for github style issue tracking, someone notes that this claim needs a citation,  author finds citation and adds it into the documents 
 
 * Tasks
+** TODO Read Claerbout's history of reproducible research
+[[http://sepwww.stanford.edu/data/media/public/sep//jon/reproducible.html][History of Reproducible Research]]
+
 ** TODO more information about Sweave
 ** TODO get more info about SPARQL
 ** TODO find quote about the paper being an advertisement for the reserch
 ** TODO Does Authorea fit in here?
 https://www.authorea.com/
 
+* Papers to Read
+
+[[id:a54a04a8-aa72-45b5-bd93-6835e948357a][Knuth, Donald Ervin :: Literate programming (1984)]]
+[[id:358b6e1e-0898-4ef9-8074-4e869fa5774b][David Donoho and Arian Maleki and Inam Rahman and Morteza Shahram and Victoria Stodden :: 15 Years of Reproducible Research in Computational Harmonic Analysis (2008)]]
+[[id:67c28701-807e-4fac-9f1b-cc5562ed0207][Stodden, Victoria :: Enabling reproducible research: licensing for scientific innovation (2009)]]
