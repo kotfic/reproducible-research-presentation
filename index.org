@@ -1,4 +1,4 @@
-#+Title: Reproducible research: open access, open data, open tools and metrics
+*sc#+Title: Reproducible research: open access, open data, open tools and metrics
 #+Author: Christopher Kotfila
 #+Email: ckotfila@albany.edu
 #+OPTIONS: toc:nil num:nil
@@ -72,10 +72,24 @@ David Donoho, 1998.
 
 
 * Examples
-#+BEGIN_SRC ditaa :file img/hello-world-round.png :cmdline -r
-+--------------+
-|              |
-| Hello World! |
-|              |
-+--------------+
+
+#+BEGIN_SRC ditaa :file img/hello-world-round.png :cmdline --round-corners --overwrite
++--------------+   +-------------+
+|              |   |             |
+| Hello World! |   | Test Two    |
+|              |   |             |
++--------------+   +-------------+
++--------------+   +--------------+
+|              |   |              |
+|              |   |              |
+|              |   |              |
+|              |   |              |
++--------------+   +--------------+
+
+
+
+	    
+
+	 
+
 #+END_SRC
