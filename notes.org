@@ -10,14 +10,21 @@
   - Open Access is absolutely vital - it raises the visibility of a paper, research, and improves over all impact [citation?] [fn:1] 
 + The ACTUAL research is the transformed data, and the analysis - sometimes this means data cleanup,  sometimes this means large scale data transformation pipelines like in NLP and machine learning
   - reproducible research is the bridge between open data and open access it takes open data as an input, and produces papers as an output
+
   - shifting from a "publication as research" model the [data + transformation code + analysis + interpretation] as the research changes the meaning of open access to research
+
   - This begs an important question - how do we publish this kind of "document"
+
   - Not restrained by old journal model - can skip growing pains of online journal model (analogy of 1960's movies that were just filmed theater shows?)
+
   - Some have already discussed blogs, social networking etc as possible outcomes,  but metrics in this environment are still emerging
+
   - Metrics in the field of software engineering are pretty good though,
+
   - In broad strokes,  software engineers produce code and documentation,   researchers produce documentation (in the form of publications)  and code. 
     - software engineers even have a counterpart to Reproducible research - literate programming.
   - Key component of reproducible is access to the tools that produced to code and documentation - tie in open source
+
 * Tools and Metrics
 + Github and github style metrics
 + Sweave
@@ -36,22 +43,48 @@
 [fn:1] This could provide an interesting example for github style issue tracking, someone notes that this claim needs a citation,  author finds citation and adds it into the documents 
 
 * Tasks
+** TODO Read more about this Elsiver executible paper competition
+http://www.executablepapers.com/
 ** TODO Read Claerbout's history of reproducible research
 [[http://sepwww.stanford.edu/data/media/public/sep//jon/reproducible.html][History of Reproducible Research]]
 
+** TODO Scopus Claerbout's stuff on RR
 ** TODO more information about Sweave
 ** TODO get more info about SPARQL
-** TODO find quote about the paper being an advertisement for the reserch
 ** TODO Does Authorea fit in here?
 https://www.authorea.com/
 
-* Papers to Read
-[[id:a54a04a8-aa72-45b5-bd93-6835e948357a][Knuth, Donald Ervin :: Literate programming (1984)]]
-[[id:39da92be-f1e4-48e4-8efd-7711e53a958d][Hothorn, Torsten and Leisch, Friedrich :: Case studies in reproducibility (2011)]]
-[[id:f4bdd44c-833e-4f7f-b752-3ee8bc92df9d][Peng, Roger D. :: Reproducible Research in Computational Science (2011)]]
-[[id:358b6e1e-0898-4ef9-8074-4e869fa5774b][David Donoho and Arian Maleki and Inam Rahman and Morteza Shahram and Victoria Stodden :: 15 Years of Reproducible Research in Computational Harmonic Analysis (2008)]]
-[[id:67c28701-807e-4fac-9f1b-cc5562ed0207][Stodden, Victoria :: Enabling reproducible research: licensing for scientific innovation (2009)]]
+** Archive                                                         :ARCHIVE:
+*** DONE find quote about the paper being an advertisement for the reserch
+CLOSED: [2013-10-07 Mon 20:46]
+:PROPERTIES:
+:ARCHIVE_TIME: 2013-10-07 Mon 20:46
+:END:
 
-- M. Schwab, N. Karrenbach, J. Claerbout, Making scientific computations reproducible. Comput. Sci. Eng. 2, 61 (2000). Search Google Scholar
-- C. Laine, S. N. Goodman, M. E. Griswold, H. C. Sox, Reproducible research: Moving toward research the public can really trust. Ann. Intern. Med. 146, 450 (2007). Medline
-- G. King, Replication, Replication. PS: Polit. Sci. Polit. 28, 444 (1995). CrossRef
+* Papers to Read
+:PROPERTIES:
+:ID:       487c95e9-eafe-46bd-882f-65cfc8aff174
+:END:
++ [[id:cae658a7-daf9-44aa-b4d7-9fe44eaf907b][Stodden, V. :: Reproducible research: Tools and strategies for scientific computing (2012)]]
++ [[id:67c28701-807e-4fac-9f1b-cc5562ed0207][Stodden, Victoria :: Enabling reproducible research: licensing for scientific innovation (2009)]]
++ [[id:a54a04a8-aa72-45b5-bd93-6835e948357a][Knuth, Donald Ervin :: Literate programming (1984)]]
+
++ [[id:39da92be-f1e4-48e4-8efd-7711e53a958d][Hothorn, Torsten and Leisch, Friedrich :: Case studies in reproducibility (2011)]]
++ [[id:f4bdd44c-833e-4f7f-b752-3ee8bc92df9d][Peng, Roger D. :: Reproducible Research in Computational Science (2011)]]
++ [[id:358b6e1e-0898-4ef9-8074-4e869fa5774b][David Donoho and Arian Maleki and Inam Rahman and Morteza Shahram and Victoria Stodden :: 15 Years of Reproducible Research in Computational Harmonic Analysis (2008)]]
++ [[id:d7300347-3a70-4d70-aea6-e7781136c6b0][Schulte, E. and Davison, D. and Dye, T. and Dominik, C. :: A multi-language computing environment for literate programming and reproducible research (2012)]]
+
+
++ [[id:84ecf889-4619-4efc-bd45-fc48d026619b][Baiocchi, G. :: Reproducible research in computational economics: Guidelines, integrated approaches, and open source software (2007)]]
++ [[id:c7581914-7560-40a2-856e-15a987daa778][Van Gorp, P. and Mazanek, S. :: SHARE: A web portal for creating and sharing executable research papers (2011)]]
++ [[id:9c4dbbea-0442-4bf7-a52e-af8298698677][Mesirov, J.P. :: Accessible reproducible research (2010)]]     
+
++ [[id:53e934d9-9567-4cc6-aa83-4ebb7102763f][Vandewalle, P. and Kovacević, J. and Vetterli, M. :: Reproducible research in signal processing: What, why, and how (2009)]]
+
+M. Schwab, N. Karrenbach, J. Claerbout, Making scientific computations reproducible. Comput. Sci. Eng. 2, 61 (2000). Search Google Scholar
+C. Laine, S. N. Goodman, M. E. Griswold, H. C. Sox, Reproducible research: Moving toward research the public can really trust. Ann. Intern. Med. 146, 450 (2007). Medline
+G. King, Replication, Replication. PS: Polit. Sci. Polit. 28, 444 (1995). CrossRef
+
+
+
+

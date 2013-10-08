@@ -22,7 +22,7 @@ Last 10 years - professional software developer
 
 both in private sector doing web application development
 
-and in academia as a research assistant. 
+and in academia as a research assistant.
 #+END_NOTES
 ** Thanks to Victoria Stoden
 Some of the Introductory material here pulls from Victoria Stoden's Presentation at the Open Knowledge Foundation's 2013 Conference
@@ -35,11 +35,11 @@ I'm hoping to use this presentation to convince you that software engineers and 
 Are you really going to talk about all that in 30 minutes?
 
 #+BEGIN_NOTES
-So the answer of course is no. 
+So the answer of course is no.
 
-This talk is going to focus on reproducible research 
+This talk is going to focus on reproducible research
 
-cast it in the light of some solved problems in software engineering
+cast it in the light of some software engineering problems that have been 
 #+END_NOTES
 
 * Reproducibility
@@ -61,30 +61,22 @@ Donald Knuth
 *** Computational Statisticians and the R Community
 Friedrich Leisch
 *** Emacs and Org-Babel Community
+
+*** Elsiver?
+http://www.executablepapers.com/
 ** 
 #+BEGIN_QUOTE
 “The idea is: An article about computational science in a scientific
 publication is not the scholarship itself, it is merely advertising of the
 scholarship. The actual scholarship is the complete ... set of
-instructions [and data] which generated the figures.” 
+instructions [and data] which generated the figures.”
 David Donoho, 1998.
 #+END_QUOTE
+
 
 
 * Examples
 
 #+BEGIN_SRC ditaa :file img/hello-world-round.png :cmdline --round-corners --overwrite
-+--------------+   +-------------+
-|              +---+             |
-| Hello World! |   | Test Two    |
-|              |   |             |
-+-----+--------+   +-----+-------+
-      |		   |
-+-----+--------+   +-----+--------+
-|              |   |              |
-|              +---+              |
-|              |   |              |
-|              |   |              |
-+--------------+   +--------------+
 
 #+END_SRC
