@@ -81,6 +81,8 @@ CLOSED: [2013-10-07 Mon 20:46]
 
 + [[id:53e934d9-9567-4cc6-aa83-4ebb7102763f][Vandewalle, P. and Kovacević, J. and Vetterli, M. :: Reproducible research in signal processing: What, why, and how (2009)]]
 
++ [[id:38a3e14d-d9ec-4b01-b315-a778caa59573][Fomel, S. and Claerbout, J.F. :: Guest editors' introduction: Reproducible research (2009)]]
+
 M. Schwab, N. Karrenbach, J. Claerbout, Making scientific computations reproducible. Comput. Sci. Eng. 2, 61 (2000). Search Google Scholar
 C. Laine, S. N. Goodman, M. E. Griswold, H. C. Sox, Reproducible research: Moving toward research the public can really trust. Ann. Intern. Med. 146, 450 (2007). Medline
 G. King, Replication, Replication. PS: Polit. Sci. Polit. 28, 444 (1995). CrossRef

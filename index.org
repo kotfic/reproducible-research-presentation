@@ -13,6 +13,7 @@ College of Computing and Information\\
 ckotfila@albany.edu \\
 @kotfic
 ** Who Am I?
+Well I'm chris kotfila!
 #+BEGIN_NOTES
 Graduated last spring with an MSIS from here at UAlbany
 
@@ -39,7 +40,7 @@ So the answer of course is no.
 
 This talk is going to focus on reproducible research
 
-cast it in the light of some software engineering problems that have been 
+cast it in the light of some software engineering problems that have been
 #+END_NOTES
 
 * Reproducibility
@@ -64,7 +65,7 @@ Friedrich Leisch
 
 *** Elsiver?
 http://www.executablepapers.com/
-** 
+**
 #+BEGIN_QUOTE
 “The idea is: An article about computational science in a scientific
 publication is not the scholarship itself, it is merely advertising of the
@@ -74,9 +75,25 @@ David Donoho, 1998.
 #+END_QUOTE
 
 
-
 * Examples
 
-#+BEGIN_SRC ditaa :file img/hello-world-round.png :cmdline --round-corners --overwrite
+
+#+BEGIN_SRC R :results graphics :file img/graph.png :exports results
+# Define 2 vectors
+cars <- c(1, 3, 6, 4, 9)
+trucks <- c(2, 5, 4, 5, 12)
+
+# Graph cars using a y axis that ranges from 0 to 12
+plot(cars, type="o", col="blue", ylim=c(0,12))
+
+# Graph trucks with red dashed line and square points
+lines(trucks, type="o", pch=22, lty=2, col="red")
+
+# Create a title with a red, bold/italic font
+title(main="Autos", col.main="red", font.main=4)
 
 #+END_SRC
+
+#+RESULTS:
+[[file:/tmp/graph.png]]
+
