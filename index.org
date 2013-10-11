@@ -94,6 +94,4 @@ title(main="Autos", col.main="red", font.main=4)
 
 #+END_SRC
 
-#+RESULTS:
-[[file:/tmp/graph.png]]
 
