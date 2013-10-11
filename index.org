@@ -77,8 +77,12 @@ David Donoho, 1998.
 #+END_QUOTE
 
 
-* Examples
+* Open Access
+*** Copyright exists to incentiveze creative works of non-trival effort
+*** For scholars, incentive structure for publication is different
+*** Attribution still a key factor
 
+* Examples
 
 #+BEGIN_SRC R :results graphics :file img/graph.png :exports results
 # Define 2 vectors
