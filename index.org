@@ -45,6 +45,7 @@ cast it in the light of some software engineering problems that have been
 
 * Reproducibility
 [[file:img/402px-1665_phil_trans_vol_i_title.png]]
+
 ** TODO Notes about early goals of reproducability
 Printing press is the technology that enables the goals of reproducability (as Shirky poitns out - some 150 years later)
 Internet and modern computing is the technology that creates the current threat to the =Credability= of the research process
@@ -65,7 +66,8 @@ Friedrich Leisch
 
 *** Elsiver?
 http://www.executablepapers.com/
-**
+
+** 
 #+BEGIN_QUOTE
 “The idea is: An article about computational science in a scientific
 publication is not the scholarship itself, it is merely advertising of the
