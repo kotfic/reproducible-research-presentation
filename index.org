@@ -64,8 +64,18 @@ Donald Knuth
 Friedrich Leisch
 *** Emacs and Org-Babel Community
 
+*** Climate Code Foundation
+Nick Barnes
+
+#+BEING_NOTES
+Relatively new group but with several high profile articles
+
+Guy behind Science Code Manifesto
+http://www.nature.com/news/2010/101013/full/467753a.html
+#+END_NOTES
 *** Elsiver?
 http://www.executablepapers.com/
+
 
 ** 
 #+BEGIN_QUOTE
@@ -76,11 +86,39 @@ instructions [and data] which generated the figures.”
 David Donoho, 1998.
 #+END_QUOTE
 
-
-* Open Access
+** Software-carpentry
+http://software-carpentry.org/
+** Open Access
 *** Copyright exists to incentiveze creative works of non-trival effort
 *** For scholars, incentive structure for publication is different
 *** Attribution still a key factor
+*** Prestige infrastructure 
+
+** Science Code Manifesto
+http://sciencecodemanifesto.org/
+
+*** Code
+#+BEING_NOTES
+All source code written specifically to process data for a published paper must be available to the reviewers and readers of the paper.
+#+END_NOTES
+*** Copyright
+#+BEING_NOTES
+The copyright ownership and license of any released source code must be clearly stated.
+#+END_NOTES
+*** Citation
+#+BEING_NOTES
+Researchers who use or adapt science source code in their research must credit the code’s creators in resulting publications.
+#+END_NOTES
+*** Credit
+#+BEGIN_NOTES
+Software contributions must be included in systems of scientific assessment, credit, and recognition.
+#+END_NOTES
+*** Curation
+#+BEGIN_NOTES
+
+Source code must remain available, linked to related materials, for the useful lifetime of the publication.
+#+END_NOTES
+
 
 * Examples
 

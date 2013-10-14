@@ -87,6 +87,16 @@ M. Schwab, N. Karrenbach, J. Claerbout, Making scientific computations reproduci
 C. Laine, S. N. Goodman, M. E. Griswold, H. C. Sox, Reproducible research: Moving toward research the public can really trust. Ann. Intern. Med. 146, 450 (2007). Medline
 G. King, Replication, Replication. PS: Polit. Sci. Polit. 28, 444 (1995). CrossRef
 
++ [[id:a9ab7962-3615-4b49-b460-45bd2c876c4c][Tomi Kauppinen and Giovana Mira de Espindola :: Linked Open Science-Communicating, Sharing and Evaluating Data, Methods and Results for Executable Papers  (2011)]]
+
+** Nature articles
+:PROPERTIES:
+:ID:       642c4d43-1300-42ba-acc7-35c1d3e5901f
+:END:
++ [[id:626ecf83-ad7f-429e-b036-84b10c1c4fe1][Begley, C. Glenn and Ellis, Lee M. :: {Drug development: Raise standards for preclinical cancer research} (2012)]]
++ [[id:066d8daf-ef7e-4efe-82c6-bf044e12e316][Mobley, , Aaron AND Linder, , Suzanne K. AND Braeuer, , Russell AND Ellis, , Lee M. AND Zwelling, , Leonard :: A Survey on Data Reproducibility in Cancer Research Provides Insights into Our Limited Ability to Translate Findings from the Laboratory to the Clinic (2013)]]
+
+
 
 
 
