@@ -4,7 +4,7 @@
 #+OPTIONS: toc:nil num:nil
 
 #+REVEAL_ROOT: revealjs/
-#+REVEAL_HLEVEL: 2
+#+REVEAL_HLEVEL: 1
 
 * Introduction
 Christopher Kotfila\\
@@ -26,11 +26,7 @@ and in academia as a research assistant.
 #+END_NOTES
 ** Thanks to Victoria Stoden
 Some of the Introductory material here pulls from Victoria Stoden's Presentation at the Open Knowledge Foundation's 2013 Conference
-** Objectives
-#+BEGIN_NOTES
 
-
-#+END_NOTES
 ** That's a long title
 Are you really going to talk about all that in 30 minutes?
 
@@ -60,21 +56,21 @@ This is done primarily with natural language process tools (ie.  computer progra
 As an initial exercize I set out to reproduce a well performing system in a particular challenge that tried to identify whether patients had obesity based on the free-form text in their medical record.
 
 #+END_NOTES
-** The idea was...
-*** reproduce the system based on the description in the paper,
+* The idea was...
+** reproduce the system based on the description in the paper,
 
-*** try to identify any systematic errors the system made
+** try to identify any systematic errors the system made
 
-*** correct those errors
+** correct those errors
 
-*** publish in a prestigious journal
+** publish in a prestigious journal
 
-*** get a tenure-track position at a respected university
+** get a tenure-track position at a respected university
 
-*** live happily ever afer.
+** live happily ever afer.
 
 
-** So It turns out...
+* So It turns out...
 #+BEGIN_NOTES
 So it turns out this wasn't a very good plan - 
 
@@ -94,7 +90,7 @@ This is the sort of fundamental problem of reproducibility that we'll be talking
 
 #+END_NOTES
 
-** 
+* 
 #+BEGIN_QUOTE
 “The idea is: An article about computational science in a scientific
 publication is not the scholarship itself, it is merely advertising of the
@@ -113,8 +109,8 @@ Internet and modern computing is the technology that creates the current threat 
 But Technology can also help to solve the problem it is creating.
 
 
-** Modern Reproducible research
-** Who is doing this?
+* Modern Reproducible research
+* Who is doing this?
 *** Stanford Group
 Jon Claerbout \\
 David Donoho
@@ -138,13 +134,10 @@ http://www.executablepapers.com/
 
 
 
-** Software-carpentry
-http://software-carpentry.org/
 
 
 * Science Code Manifesto
 http://sciencecodemanifesto.org/
-
 *** Code
 All source code written specifically to process data for a published paper must be available to the reviewers and readers of the paper.
 *** Copyright
@@ -157,28 +150,20 @@ Software contributions must be included in systems of scientific assessment, cre
 Source code must remain available, linked to related materials, for the useful lifetime of the publication.
 
 
-* Fill in the Blank
+* 
+Software Engineers and Researchers have a lot in common
+** 
+highly specialized
+** 
+experts in their area
+** 
+Frequently found working on teams that are \\
+geographically disparate and \\ 
+culturally diverse
+** 
+produce complex processes that obtain, scrub, explore, model and interpret data.
 
-** _______ are.....
-*** highly specialized
-*** experts in their area
-*** frequently found working on teams that are...
-*** geographically disparate
-*** and culturally diverse
-** ______ often....
-*** produce complex processes that...
-#+ATTR_REVEAL: :frag grow
-obtain
-#+ATTR_REVEAL: :frag grow
-scrub
-#+ATTR_REVEAL: :frag grow
-explore
-#+ATTR_REVEAL: :frag grow
-model 
-and 
-#+ATTR_REVEAL: :frag grow
-interpret 
-data
+
 
 
 * Source Control Management
@@ -202,8 +187,11 @@ title(main="Autos", col.main="red", font.main=4)
 #+END_SRC
 
 
-* Open Access
-*** Copyright exists to incentiveze creative works of non-trival effort
-*** For scholars, incentive structure for publication is different
-*** Attribution still a key factor
-*** Prestige infrastructure 
+* Parking lot
+** Open Access
+**** Copyright exists to incentiveze creative works of non-trival effort
+**** For scholars, incentive structure for publication is different
+**** Attribution still a key factor
+**** Prestige infrastructure 
+** Software-carpentry
+http://software-carpentry.org/
