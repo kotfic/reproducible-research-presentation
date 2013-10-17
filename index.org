@@ -109,66 +109,63 @@ Internet and modern computing is the technology that creates the current threat 
 But Technology can also help to solve the problem it is creating.
 
 
-* Modern Reproducible research
-* Who is doing this?
-*** Stanford Group
-Jon Claerbout \\
-David Donoho
-*** Literate Programing
-Donald Knuth
-*** Bioinformatics and statistically intensive biology
-*** Computational Statisticians and the R Community
-Friedrich Leisch
-*** Emacs and Org-Babel Community
-*** Climate Code Foundation
-Nick Barnes
-
-#+BEING_NOTES
-Relatively new group but with several high profile articles
-
-Guy behind Science Code Manifesto
-http://www.nature.com/news/2010/101013/full/467753a.html
-#+END_NOTES
-*** Elsiver?
-http://www.executablepapers.com/
-
-
-
-
-
-* Science Code Manifesto
-http://sciencecodemanifesto.org/
-*** Code
-All source code written specifically to process data for a published paper must be available to the reviewers and readers of the paper.
-*** Copyright
-The copyright ownership and license of any released source code must be clearly stated.
-*** Citation
-Researchers who use or adapt science source code in their research must credit the code’s creators in resulting publications.
-*** Credit
-Software contributions must be included in systems of scientific assessment, credit, and recognition.
-*** Curation
-Source code must remain available, linked to related materials, for the useful lifetime of the publication.
-
-
-* 
-Software Engineers and Researchers have a lot in common
-** 
-highly specialized
-** 
-experts in their area
-** 
-Frequently found working on teams that are \\
-geographically disparate and \\ 
+* Software Developers and Researchers 
+(have a lot in common)
+** Highly specialized
+** Experts in their area
+** Collaborate frequently
+Usually working on teams that are \\
+geographically disparate  \\ 
 culturally diverse
-** 
-produce complex processes that obtain, scrub, explore, model and interpret data.
+** Produce complex processes that 
++ obtain, 
++ scrub, 
++ explore, 
++ model 
++ and interpret data.
+
+* Code and Documentation
+#+BEGIN_NOTES
+For software developers documentation tends to take a back seat to code 
+
+For researchers code (and data processesing) tends to take a back seat to documentation
+
+and by documentation i mean a publishible paper. 
+
+
+#+END_NOTES
+
+
+* The Open Science Pipeline 
+#+BEGIN_NOTES
+Really reproducible research spans all the steps between a data source and a publiction. 
+
+All the steps involved in obtaining,  scrubing, modeling and interpreting the data. 
+
+This doesn't HAVE to be in the context of an open data and open access 
+
+BUT - in this context open reproducible research brings end-to-end transparency to the entire process.
+
+Luckily Reproducibility is (arguably) the number one  concern of software developers.
+
+And they've been building tools to support reproducibility for the last 30 or 40 years. 
+
+#+END_NOTES
++ Open Data
++ Reproducible Research
++ Open Access
 
 
 
+* Source Control Management System
 
-* Source Control Management
+* Git and Github
+** Forking for Fun and Profit
+** SCMS are not just for Source Code
+https://github.com/blog/1657-introducing-government-github-com
 
-* Examples
+* Executable Papers and Literate Programing
+** Examples
 
 #+BEGIN_SRC R :results graphics :file img/graph.png :exports results
 # Define 2 vectors
@@ -187,6 +184,12 @@ title(main="Autos", col.main="red", font.main=4)
 #+END_SRC
 
 
+* Oh yeah... The Metrics
+
+
+* Final Thought
+
+
 * Parking lot
 ** Open Access
 **** Copyright exists to incentiveze creative works of non-trival effort
@@ -195,3 +198,50 @@ title(main="Autos", col.main="red", font.main=4)
 **** Prestige infrastructure 
 ** Software-carpentry
 http://software-carpentry.org/
+** Science Code Manifesto
+http://sciencecodemanifesto.org/
+**** Code
+All source code written specifically to process data for a published paper must be available to the reviewers and readers of the paper.
+**** Copyright
+The copyright ownership and license of any released source code must be clearly stated.
+**** Citation
+Researchers who use or adapt science source code in their research must credit the code’s creators in resulting publications.
+**** Credit
+Software contributions must be included in systems of scientific assessment, credit, and recognition.
+**** Curation
+Source code must remain available, linked to related materials, for the useful lifetime of the publication.
+
+** Modern Reproducible research
+** Who is doing this?
+**** Stanford Group
+Jon Claerbout \\
+David Donoho
+**** Literate Programing
+Donald Knuth
+**** Bioinformatics and statistically intensive biology
+**** Computational Statisticians and the R Community
+Friedrich Leisch
+**** Emacs and Org-Babel Community
+**** Climate Code Foundation
+Nick Barnes
+
+#+BEING_NOTES
+Relatively new group but with several high profile articles
+
+Guy behind Science Code Manifesto
+http://www.nature.com/news/2010/101013/full/467753a.html
+#+END_NOTES
+**** Elsiver?
+http://www.executablepapers.com/
+
+
+
+
+** Linus's Law
+"given enough eyeballs, all bugs are shallow"; \\ 
+or more formally: \\
+"Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix will be obvious to someone." 
+[citeRaymond]
+
+** Government Github
+
