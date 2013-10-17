@@ -86,7 +86,23 @@ They had moved to a different institution
 
 It was simply no longer accessable.
 
+So now there is this system documentation- this paper- that describes a well performing system- 
+
+but the system, the solution in its most tangible form is gone.
+
+This is the sort of fundamental problem of reproducibility that we'll be talking about. 
+
 #+END_NOTES
+
+** 
+#+BEGIN_QUOTE
+“The idea is: An article about computational science in a scientific
+publication is not the scholarship itself, it is merely advertising of the
+scholarship. The actual scholarship is the complete ... set of
+instructions [and data] which generated the figures.”
+David Donoho, 1998.
+#+END_QUOTE
+
 
 * Reproducibility
 [[file:img/402px-1665_phil_trans_vol_i_title.png]]
@@ -104,11 +120,10 @@ Jon Claerbout \\
 David Donoho
 *** Literate Programing
 Donald Knuth
-*** Bioinformatics and statistics heavy biology
+*** Bioinformatics and statistically intensive biology
 *** Computational Statisticians and the R Community
 Friedrich Leisch
 *** Emacs and Org-Babel Community
-
 *** Climate Code Foundation
 Nick Barnes
 
@@ -122,50 +137,28 @@ http://www.nature.com/news/2010/101013/full/467753a.html
 http://www.executablepapers.com/
 
 
-** 
-#+BEGIN_QUOTE
-“The idea is: An article about computational science in a scientific
-publication is not the scholarship itself, it is merely advertising of the
-scholarship. The actual scholarship is the complete ... set of
-instructions [and data] which generated the figures.”
-David Donoho, 1998.
-#+END_QUOTE
 
 ** Software-carpentry
 http://software-carpentry.org/
-** Open Access
-*** Copyright exists to incentiveze creative works of non-trival effort
-*** For scholars, incentive structure for publication is different
-*** Attribution still a key factor
-*** Prestige infrastructure 
 
-** Science Code Manifesto
+
+* Science Code Manifesto
 http://sciencecodemanifesto.org/
 
 *** Code
-#+BEING_NOTES
 All source code written specifically to process data for a published paper must be available to the reviewers and readers of the paper.
-#+END_NOTES
 *** Copyright
-#+BEING_NOTES
 The copyright ownership and license of any released source code must be clearly stated.
-#+END_NOTES
 *** Citation
-#+BEING_NOTES
 Researchers who use or adapt science source code in their research must credit the code’s creators in resulting publications.
-#+END_NOTES
 *** Credit
-#+BEGIN_NOTES
 Software contributions must be included in systems of scientific assessment, credit, and recognition.
-#+END_NOTES
 *** Curation
-#+BEGIN_NOTES
-
 Source code must remain available, linked to related materials, for the useful lifetime of the publication.
-#+END_NOTES
 
 
 * Fill in the Blank
+
 ** _______ are.....
 *** highly specialized
 *** experts in their area
@@ -174,14 +167,21 @@ Source code must remain available, linked to related materials, for the useful l
 *** and culturally diverse
 ** ______ often....
 *** produce complex processes that...
-*** obtain
-*** scrub
-*** explore
-*** model
-*** and interpret 
-*** data [Mason2010] 
+#+ATTR_REVEAL: :frag grow
+obtain
+#+ATTR_REVEAL: :frag grow
+scrub
+#+ATTR_REVEAL: :frag grow
+explore
+#+ATTR_REVEAL: :frag grow
+model 
+and 
+#+ATTR_REVEAL: :frag grow
+interpret 
+data
 
-*** rely on informal input from their collegues
+
+* Source Control Management
 
 * Examples
 
@@ -202,3 +202,8 @@ title(main="Autos", col.main="red", font.main=4)
 #+END_SRC
 
 
+* Open Access
+*** Copyright exists to incentiveze creative works of non-trival effort
+*** For scholars, incentive structure for publication is different
+*** Attribution still a key factor
+*** Prestige infrastructure 
