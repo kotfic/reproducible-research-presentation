@@ -13,13 +13,12 @@ College of Computing and Information\\
 ckotfila@albany.edu \\
 @kotfic
 ** Who Am I?
-Well I'm chris kotfila!
 #+BEGIN_NOTES
 Graduated last spring with an MSIS from here at UAlbany
 
 Focused primarily on scholarly communication and open access
 
-Last 10 years - professional software developer
+Last 10 years -amature/professional software developer
 
 both in private sector doing web application development
 
@@ -29,7 +28,7 @@ and in academia as a research assistant.
 Some of the Introductory material here pulls from Victoria Stoden's Presentation at the Open Knowledge Foundation's 2013 Conference
 ** Objectives
 #+BEGIN_NOTES
-I'm hoping to use this presentation to convince you that software engineers and researchers have similar problems
+
 
 #+END_NOTES
 ** That's a long title
@@ -40,7 +39,53 @@ So the answer of course is no.
 
 This talk is going to focus on reproducible research
 
-cast it in the light of some software engineering problems that have been
+cast it in the light of some problems that software engineers have been facing for a number of years
+#+END_NOTES
+
+* An Example from personal experience
+(subtitle: an origin story)
+#+BEGIN_NOTES
+So - I began working as a research assistant here at Albany at the beginning of this summer
+
+The work I'm learning to do involves writing computer programs to to pull structured information out of unstructured medical discharge summaries.  
+
+There are a lot of interesting and practical applications for work like this
+
+tracking patient outcomes for instance
+
+identifying systematic issues at hospitals or with health care processes - lots of stuff.
+
+This is done primarily with natural language process tools (ie.  computer programs and processes) 
+
+As an initial exercize I set out to reproduce a well performing system in a particular challenge that tried to identify whether patients had obesity based on the free-form text in their medical record.
+
+#+END_NOTES
+** The idea was...
+*** reproduce the system based on the description in the paper,
+
+*** try to identify any systematic errors the system made
+
+*** correct those errors
+
+*** publish in a prestigious journal
+
+*** get a tenure-track position at a respected university
+
+*** live happily ever afer.
+
+
+** So It turns out...
+#+BEGIN_NOTES
+So it turns out this wasn't a very good plan - 
+
+I spent about a month trying to reproduce the system from the paper - too many variables, too much complexity
+
+Finally in desperation I emailed the original authors, while they were extreamly helpful - the original system couldn't be found. 
+
+They had moved to a different institution
+
+It was simply no longer accessable.
+
 #+END_NOTES
 
 * Reproducibility
@@ -119,6 +164,24 @@ Software contributions must be included in systems of scientific assessment, cre
 Source code must remain available, linked to related materials, for the useful lifetime of the publication.
 #+END_NOTES
 
+
+* Fill in the Blank
+** _______ are.....
+*** highly specialized
+*** experts in their area
+*** frequently found working on teams that are...
+*** geographically disparate
+*** and culturally diverse
+** ______ often....
+*** produce complex processes that...
+*** obtain
+*** scrub
+*** explore
+*** model
+*** and interpret 
+*** data [Mason2010] 
+
+*** rely on informal input from their collegues
 
 * Examples
 

@@ -34,9 +34,6 @@ ckotfila@albany.edu <br  />
 <section id="sec-1-1" >
 
 <h3>Who Am I?</h3>
-<p>
-Well I'm chris kotfila!
-</p>
 <aside class="notes">
 <p>
 Graduated last spring with an MSIS from here at UAlbany
@@ -47,7 +44,7 @@ Focused primarily on scholarly communication and open access
 </p>
 
 <p>
-Last 10 years - professional software developer
+Last 10 years -amature/professional software developer
 </p>
 
 <p>
@@ -76,9 +73,6 @@ Some of the Introductory material here pulls from Victoria Stoden's Presentation
 
 <h3>Objectives</h3>
 <aside class="notes">
-<p>
-I'm hoping to use this presentation to convince you that software engineers and researchers have similar problems
-</p>
 </aside>
 </section>
 
@@ -101,19 +95,118 @@ This talk is going to focus on reproducible research
 </p>
 
 <p>
-cast it in the light of some software engineering problems that have been
+cast it in the light of some problems that software engineers have been facing for a number of years
 </p>
 </aside>
 </section>
 </section>
 <section id="sec-2" >
 
+<h2>An Example from personal experience</h2>
+<p>
+(subtitle: an origin story)
+</p>
+<aside class="notes">
+<p>
+So - I began working as a research assistant here at Albany at the beginning of this summer
+</p>
+
+<p>
+The work I'm learning to do involves writing computer programs to to pull structured information out of unstructured medical discharge summaries.  
+</p>
+
+<p>
+There are a lot of interesting and practical applications for work like this
+</p>
+
+<p>
+tracking patient outcomes for instance
+</p>
+
+<p>
+identifying systematic issues at hospitals or with health care processes - lots of stuff.
+</p>
+
+<p>
+This is done primarily with natural language process tools (ie.  computer programs and processes) 
+</p>
+
+<p>
+As an initial exercize I set out to reproduce a well performing system in a particular challenge that tried to identify whether patients had obesity based on the free-form text in their medical record.
+</p>
+</aside>
+</section>
+<section>
+<section id="sec-2-1" >
+
+<h3>The idea was&#x2026;</h3>
+</section>
+<section id="sec-2-1-1" >
+
+<h4>reproduce the system based on the description in the paper,</h4>
+
+</section>
+<section id="sec-2-1-2" >
+
+<h4>try to identify any systematic errors the system made</h4>
+
+</section>
+<section id="sec-2-1-3" >
+
+<h4>correct those errors</h4>
+
+</section>
+<section id="sec-2-1-4" >
+
+<h4>publish in a prestigious journal</h4>
+
+</section>
+<section id="sec-2-1-5" >
+
+<h4>get a tenure-track position at a respected university</h4>
+
+</section>
+<section id="sec-2-1-6" >
+
+<h4>live happily ever afer.</h4>
+</section>
+
+</section>
+<section>
+<section id="sec-2-2" >
+
+<h3>So It turns out&#x2026;</h3>
+<aside class="notes">
+<p>
+So it turns out this wasn't a very good plan - 
+</p>
+
+<p>
+I spent about a month trying to reproduce the system from the paper - too many variables, too much complexity
+</p>
+
+<p>
+Finally in desperation I emailed the original authors, while they were extreamly helpful - the original system couldn't be found. 
+</p>
+
+<p>
+They had moved to a different institution
+</p>
+
+<p>
+It was simply no longer accessable.
+</p>
+</aside>
+</section>
+</section>
+<section id="sec-3" >
+
 <h2>Reproducibility</h2>
 <img src="img/402px-1665_phil_trans_vol_i_title.png" alt="402px-1665_phil_trans_vol_i_title.png" />
 
 </section>
 <section>
-<section id="sec-2-1" >
+<section id="sec-3-1" >
 
 <h3><span class="todo TODO">TODO</span> Notes about early goals of reproducability</h3>
 <p>
@@ -125,17 +218,17 @@ But Technology can also help to solve the problem it is creating.
 
 </section>
 <section>
-<section id="sec-2-2" >
+<section id="sec-3-2" >
 
 <h3>Modern Reproducible research</h3>
 </section>
 </section>
 <section>
-<section id="sec-2-3" >
+<section id="sec-3-3" >
 
 <h3>Who is doing this?</h3>
 </section>
-<section id="sec-2-3-1" >
+<section id="sec-3-3-1" >
 
 <h4>Stanford Group</h4>
 <p>
@@ -144,7 +237,7 @@ David Donoho
 </p>
 
 </section>
-<section id="sec-2-3-2" >
+<section id="sec-3-3-2" >
 
 <h4>Literate Programing</h4>
 <p>
@@ -152,11 +245,11 @@ Donald Knuth
 </p>
 
 </section>
-<section id="sec-2-3-3" >
+<section id="sec-3-3-3" >
 
 <h4>Bioinformatics and statistics heavy biology</h4>
 </section>
-<section id="sec-2-3-4" >
+<section id="sec-3-3-4" >
 
 <h4>Computational Statisticians and the R Community</h4>
 <p>
@@ -164,21 +257,41 @@ Friedrich Leisch
 </p>
 
 </section>
-<section id="sec-2-3-5" >
+<section id="sec-3-3-5" >
 
 <h4>Emacs and Org-Babel Community</h4>
 
 </section>
-<section id="sec-2-3-6" >
+<section id="sec-3-3-6" >
+
+<h4>Climate Code Foundation</h4>
+<p>
+Nick Barnes
+</p>
+
+<p>
+#+BEING<sub>NOTES</sub>
+Relatively new group but with several high profile articles
+</p>
+
+<p>
+Guy behind Science Code Manifesto
+<a href="http://www.nature.com/news/2010/101013/full/467753a.html">http://www.nature.com/news/2010/101013/full/467753a.html</a>
+#+END<sub>NOTES</sub>
+</p>
+
+</section>
+<section id="sec-3-3-7" >
 
 <h4>Elsiver?</h4>
 <p>
 <a href="http://www.executablepapers.com/">http://www.executablepapers.com/</a>
 </p>
 </section>
+
 </section>
 <section>
-<section id="sec-2-4" >
+<section id="sec-3-4" >
 
 <h3></h3>
 <blockquote>
@@ -191,25 +304,170 @@ David Donoho, 1998.
 </p>
 </blockquote>
 </section>
+</section>
+<section>
+<section id="sec-3-5" >
+
+<h3>Software-carpentry</h3>
+<p>
+<a href="http://software-carpentry.org/">http://software-carpentry.org/</a>
+</p>
+</section>
 
 </section>
-<section id="sec-3" >
+<section>
+<section id="sec-3-6" >
 
-<h2>Open Access</h2>
+<h3>Open Access</h3>
 </section>
-<section id="sec-3-0-1" >
+<section id="sec-3-6-1" >
 
 <h4>Copyright exists to incentiveze creative works of non-trival effort</h4>
 </section>
-<section id="sec-3-0-2" >
+<section id="sec-3-6-2" >
 
 <h4>For scholars, incentive structure for publication is different</h4>
 </section>
-<section id="sec-3-0-3" >
+<section id="sec-3-6-3" >
 
 <h4>Attribution still a key factor</h4>
 </section>
+<section id="sec-3-6-4" >
+
+<h4>Prestige infrastructure</h4>
+</section>
+</section>
+<section>
+<section id="sec-3-7" >
+
+<h3>Science Code Manifesto</h3>
+<p>
+<a href="http://sciencecodemanifesto.org/">http://sciencecodemanifesto.org/</a>
+</p>
+
+</section>
+<section id="sec-3-7-1" >
+
+<h4>Code</h4>
+<p>
+#+BEING<sub>NOTES</sub>
+All source code written specifically to process data for a published paper must be available to the reviewers and readers of the paper.
+#+END<sub>NOTES</sub>
+</p>
+
+</section>
+<section id="sec-3-7-2" >
+
+<h4>Copyright</h4>
+<p>
+#+BEING<sub>NOTES</sub>
+The copyright ownership and license of any released source code must be clearly stated.
+#+END<sub>NOTES</sub>
+</p>
+
+</section>
+<section id="sec-3-7-3" >
+
+<h4>Citation</h4>
+<p>
+#+BEING<sub>NOTES</sub>
+Researchers who use or adapt science source code in their research must credit the code’s creators in resulting publications.
+#+END<sub>NOTES</sub>
+</p>
+
+</section>
+<section id="sec-3-7-4" >
+
+<h4>Credit</h4>
+<aside class="notes">
+<p>
+Software contributions must be included in systems of scientific assessment, credit, and recognition.
+</p>
+</aside>
+
+</section>
+<section id="sec-3-7-5" >
+
+<h4>Curation</h4>
+<aside class="notes">
+<p>
+Source code must remain available, linked to related materials, for the useful lifetime of the publication.
+</p>
+</aside>
+</section>
+
+</section>
 <section id="sec-4" >
+
+<h2>Fill in the Blank</h2>
+</section>
+<section>
+<section id="sec-4-1" >
+
+<h3><span class="underline"><span class="underline"><span class="underline">_</span></span></span> are&#x2026;..</h3>
+</section>
+<section id="sec-4-1-1" >
+
+<h4>highly specialized</h4>
+</section>
+<section id="sec-4-1-2" >
+
+<h4>experts in their area</h4>
+</section>
+<section id="sec-4-1-3" >
+
+<h4>frequently found working on teams that are&#x2026;</h4>
+</section>
+<section id="sec-4-1-4" >
+
+<h4>geographically disparate</h4>
+</section>
+<section id="sec-4-1-5" >
+
+<h4>and culturally diverse</h4>
+</section>
+
+</section>
+<section>
+<section id="sec-4-2" >
+
+<h3><span class="underline"><span class="underline">__</span></span> often&#x2026;.</h3>
+</section>
+<section id="sec-4-2-1" >
+
+<h4>produce complex processes that&#x2026;</h4>
+</section>
+<section id="sec-4-2-2" >
+
+<h4>obtain</h4>
+</section>
+<section id="sec-4-2-3" >
+
+<h4>scrub</h4>
+</section>
+<section id="sec-4-2-4" >
+
+<h4>explore</h4>
+</section>
+<section id="sec-4-2-5" >
+
+<h4>model</h4>
+</section>
+<section id="sec-4-2-6" >
+
+<h4>and interpret</h4>
+</section>
+<section id="sec-4-2-7" >
+
+<h4>data [Mason2010]</h4>
+
+</section>
+<section id="sec-4-2-8" >
+
+<h4>rely on informal input from their collegues</h4>
+</section>
+</section>
+<section id="sec-5" >
 
 <h2>Examples</h2>
 <img src="img/graph.png" alt="graph.png" />
