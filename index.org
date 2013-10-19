@@ -24,9 +24,6 @@ both in private sector doing web application development
 
 and in academia as a research assistant.
 #+END_NOTES
-** Thanks to Victoria Stoden
-Some of the Introductory material here pulls from Victoria Stoden's Presentation at the Open Knowledge Foundation's 2013 Conference
-
 ** That's a long title
 Are you really going to talk about all that in 30 minutes?
 
@@ -36,10 +33,29 @@ So the answer of course is no.
 This talk is going to focus on reproducible research
 
 cast it in the light of some problems that software engineers have been facing for a number of years
+
+and then really what I'm really hoping is that I'll get a chance to show you some really cool tools that have emerged in the last 5 to 10 years
+
+and then talk about how these tools related to open access and open data. 
 #+END_NOTES
 
+** Caveat 
+#+BEGIN_QUOTE
+"Release early release often"[1]
+#+END_QUOTE
+[1] Eric S. Raymond, The Cathedral and the Bazaar (1997)
+
+#+BEGIN_NOTES
+So there is a relatively well established philosophy in software development "Release early release often"
+
+In software this means,  get your program out there as soon as possible and let people start giving you feedback
+
+This presentation emerges from a number of threads that have been stewing for the last couple of years
+
+The ideas here are still a little rough,  in true Open Source fashion,  I hope you'll help me refine them. 
+
+#+END_NOTES
 * An Example from personal experience
-(subtitle: an origin story)
 #+BEGIN_NOTES
 So - I began working as a research assistant here at Albany at the beginning of this summer
 
@@ -67,8 +83,7 @@ As an initial exercize I set out to reproduce a well performing system in a part
 
 ** get a tenure-track position at a respected university
 
-** live happily ever afer.
-
+** live happily ever afer
 
 * So It turns out...
 #+BEGIN_NOTES
@@ -86,9 +101,35 @@ So now there is this system documentation- this paper- that describes a well per
 
 but the system, the solution in its most tangible form is gone.
 
-This is the sort of fundamental problem of reproducibility that we'll be talking about. 
-
 #+END_NOTES
+
+* A state of "Crisis"
++ Begley, C. Glenn and Ellis, Lee M. Drug development: Raise standards for preclinical cancer research, Nature (2012)
++ AAAS (2011). AAAS annual meeting: Workshop on the digitization of science: Repro-ducibility and interdisciplinary knowledge transfer.
++ AMP (2011). Applied mathematics perspectives workshop on reproducible research: Toolsand strategies for scientific computing applied mathematics perspectives.
++ SIAM-CSE (2011). SIAM conference on computational science & engineering workshop onverifiable, reproducible computational science.
++ SIAM-Geo (2011). SIAM geosciences workshop on reproducible science and open-sourcesoftware in the geosciences
++ NSF (2010). National science foundation workshop on changing the conduct of science inthe information age summary.
++ ENAR (2011). Research ethics in biostatistics: Invited panel discussion at ENAR 2011 onthe biostatistician’s role in reproducible research.
++ Yale Law School Round Table on Data and Code Sharing (2009)
+
+#+BEGIN_NOTES
+This is the so called "Crisis of reproducibility" 
+#+END_NOTES
+
+
+* Reproducibility
+
+* 
+[[file:img/402px-1665_phil_trans_vol_i_title.png]]
+
+#+BEGIN_NOTES
+Reproducibility is not a new concept - 
+#+END_NOTES
+** TODO Notes about early goals of reproducability
+Printing press is the technology that enables the goals of reproducability (as Shirky poitns out - some 150 years later)
+Internet and modern computing is the technology that creates the current threat to the =Credability= of the research process
+But Technology can also help to solve the problem it is creating.
 
 * 
 #+BEGIN_QUOTE
@@ -98,15 +139,6 @@ scholarship. The actual scholarship is the complete ... set of
 instructions [and data] which generated the figures.”
 David Donoho, 1998.
 #+END_QUOTE
-
-
-* Reproducibility
-[[file:img/402px-1665_phil_trans_vol_i_title.png]]
-
-** TODO Notes about early goals of reproducability
-Printing press is the technology that enables the goals of reproducability (as Shirky poitns out - some 150 years later)
-Internet and modern computing is the technology that creates the current threat to the =Credability= of the research process
-But Technology can also help to solve the problem it is creating.
 
 
 * Software Developers and Researchers 
@@ -159,7 +191,9 @@ And they've been building tools to support reproducibility for the last 30 or 40
 
 * Source Control Management System
 
+** =Who= did =what= =when= and =why=?
 * Git and Github
+** The details of git and github are not vital to understand importaint right now
 ** Forking for Fun and Profit
 ** SCMS are not just for Source Code
 https://github.com/blog/1657-introducing-government-github-com

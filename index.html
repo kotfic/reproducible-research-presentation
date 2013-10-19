@@ -59,13 +59,6 @@ and in academia as a research assistant.
 </section>
 <section id="sec-1-2" >
 
-<h3>Thanks to Victoria Stoden</h3>
-<p>
-Some of the Introductory material here pulls from Victoria Stoden's Presentation at the Open Knowledge Foundation's 2013 Conference
-</p>
-</section>
-<section id="sec-1-3" >
-
 <h3>That's a long title</h3>
 <p>
 Are you really going to talk about all that in 30 minutes?
@@ -83,16 +76,31 @@ This talk is going to focus on reproducible research
 <p>
 cast it in the light of some problems that software engineers have been facing for a number of years
 </p>
+
+<p>
+and then really what I'm really hoping is that I'll get a chance to show you some really cool tools that have emerged in the last 5 to 10 years
+</p>
+
+<p>
+and then talk about how these tools related to open access and open data. 
+</p>
 </aside>
 </section>
+<section id="sec-1-3" >
+
+<h3>Caveat</h3>
+<blockquote>
+<p>
+"Release early release often"<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>
+</p>
+</blockquote>
+</section>
+
 </section>
 <section>
 <section id="sec-2" >
 
 <h2>An Example from personal experience</h2>
-<p>
-(subtitle: an origin story)
-</p>
 <aside class="notes">
 <p>
 So - I began working as a research assistant here at Albany at the beginning of this summer
@@ -157,9 +165,8 @@ As an initial exercize I set out to reproduce a well performing system in a part
 </section>
 <section id="sec-3-6" >
 
-<h3>live happily ever afer.</h3>
+<h3>live happily ever afer</h3>
 </section>
-
 </section>
 <section>
 <section id="sec-4" >
@@ -193,15 +200,71 @@ So now there is this system documentation- this paper- that describes a well per
 <p>
 but the system, the solution in its most tangible form is gone.
 </p>
-
-<p>
-This is the sort of fundamental problem of reproducibility that we'll be talking about. 
-</p>
 </aside>
 </section>
 </section>
 <section>
 <section id="sec-5" >
+
+<h2>A state of "Crisis"</h2>
+<ul class="org-ul">
+<li>Begley, C. Glenn and Ellis, Lee M. Drug development: Raise standards for preclinical cancer research, Nature (2012)
+</li>
+<li>AAAS (2011). AAAS annual meeting: Workshop on the digitization of science: Repro-ducibility and interdisciplinary knowledge transfer.
+</li>
+<li>AMP (2011). Applied mathematics perspectives workshop on reproducible research: Toolsand strategies for scientific computing applied mathematics perspectives.
+</li>
+<li>SIAM-CSE (2011). SIAM conference on computational science &amp; engineering workshop onverifiable, reproducible computational science.
+</li>
+<li>SIAM-Geo (2011). SIAM geosciences workshop on reproducible science and open-sourcesoftware in the geosciences
+</li>
+<li>NSF (2010). National science foundation workshop on changing the conduct of science inthe information age summary.
+</li>
+<li>ENAR (2011). Research ethics in biostatistics: Invited panel discussion at ENAR 2011 onthe biostatistician’s role in reproducible research.
+</li>
+<li>Yale Law School Round Table on Data and Code Sharing (2009)
+</li>
+</ul>
+
+<aside class="notes">
+<p>
+This is the so called "Crisis of reproducibility" 
+</p>
+</aside>
+</section>
+
+</section>
+<section>
+<section id="sec-6" >
+
+<h2>Reproducibility</h2>
+</section>
+
+</section>
+<section>
+<section id="sec-7" >
+
+<h2></h2>
+<img src="img/402px-1665_phil_trans_vol_i_title.png" alt="402px-1665_phil_trans_vol_i_title.png" />
+
+<aside class="notes">
+<p>
+Reproducibility is not a new concept - 
+</p>
+</aside>
+</section>
+<section id="sec-7-1" >
+
+<h3><span class="todo TODO">TODO</span> Notes about early goals of reproducability</h3>
+<p>
+Printing press is the technology that enables the goals of reproducability (as Shirky poitns out - some 150 years later)
+Internet and modern computing is the technology that creates the current threat to the <code>Credability</code> of the research process
+But Technology can also help to solve the problem it is creating.
+</p>
+</section>
+</section>
+<section>
+<section id="sec-8" >
 
 <h2></h2>
 <blockquote>
@@ -217,40 +280,22 @@ David Donoho, 1998.
 
 </section>
 <section>
-<section id="sec-6" >
-
-<h2>Reproducibility</h2>
-<img src="img/402px-1665_phil_trans_vol_i_title.png" alt="402px-1665_phil_trans_vol_i_title.png" />
-
-</section>
-<section id="sec-6-1" >
-
-<h3><span class="todo TODO">TODO</span> Notes about early goals of reproducability</h3>
-<p>
-Printing press is the technology that enables the goals of reproducability (as Shirky poitns out - some 150 years later)
-Internet and modern computing is the technology that creates the current threat to the <code>Credability</code> of the research process
-But Technology can also help to solve the problem it is creating.
-</p>
-</section>
-
-</section>
-<section>
-<section id="sec-7" >
+<section id="sec-9" >
 
 <h2>Software Developers and Researchers</h2>
 <p>
 (have a lot in common)
 </p>
 </section>
-<section id="sec-7-1" >
+<section id="sec-9-1" >
 
 <h3>Highly specialized</h3>
 </section>
-<section id="sec-7-2" >
+<section id="sec-9-2" >
 
 <h3>Experts in their area</h3>
 </section>
-<section id="sec-7-3" >
+<section id="sec-9-3" >
 
 <h3>Collaborate frequently</h3>
 <p>
@@ -260,7 +305,7 @@ culturally diverse
 </p>
 
 </section>
-<section id="sec-7-4" >
+<section id="sec-9-4" >
 
 <h3>Produce complex processes that</h3>
 <ul class="org-ul">
@@ -278,7 +323,7 @@ culturally diverse
 </section>
 </section>
 <section>
-<section id="sec-8" >
+<section id="sec-10" >
 
 <h2>Code and Documentation</h2>
 <aside class="notes">
@@ -298,7 +343,7 @@ and by documentation i mean a publishible paper.
 
 </section>
 <section>
-<section id="sec-9" >
+<section id="sec-11" >
 
 <h2>The Open Science Pipeline</h2>
 <aside class="notes">
@@ -339,22 +384,30 @@ And they've been building tools to support reproducibility for the last 30 or 40
 
 </section>
 <section>
-<section id="sec-10" >
+<section id="sec-12" >
 
 <h2>Source Control Management System</h2>
+</section>
+<section id="sec-12-1" >
+
+<h3><code>Who</code> did <code>what</code> <code>when</code> and <code>why</code>?</h3>
 </section>
 
 </section>
 <section>
-<section id="sec-11" >
+<section id="sec-13" >
 
 <h2>Git and Github</h2>
 </section>
-<section id="sec-11-1" >
+<section id="sec-13-1" >
+
+<h3>The details of git and github are not vital to understand importaint right now</h3>
+</section>
+<section id="sec-13-2" >
 
 <h3>Forking for Fun and Profit</h3>
 </section>
-<section id="sec-11-2" >
+<section id="sec-13-3" >
 
 <h3>SCMS are not just for Source Code</h3>
 <p>
@@ -363,11 +416,11 @@ And they've been building tools to support reproducibility for the last 30 or 40
 </section>
 </section>
 <section>
-<section id="sec-12" >
+<section id="sec-14" >
 
 <h2>Executable Papers and Literate Programing</h2>
 </section>
-<section id="sec-12-1" >
+<section id="sec-14-1" >
 
 <h3>Examples</h3>
 <img src="img/graph.png" alt="graph.png" />
@@ -375,7 +428,7 @@ And they've been building tools to support reproducibility for the last 30 or 40
 
 </section>
 <section>
-<section id="sec-13" >
+<section id="sec-15" >
 
 <h2>Oh yeah&#x2026; The Metrics</h2>
 </section>
@@ -383,7 +436,7 @@ And they've been building tools to support reproducibility for the last 30 or 40
 
 </section>
 <section>
-<section id="sec-14" >
+<section id="sec-16" >
 
 <h2>Final Thought</h2>
 </section>
@@ -391,11 +444,11 @@ And they've been building tools to support reproducibility for the last 30 or 40
 
 </section>
 <section>
-<section id="sec-15" >
+<section id="sec-17" >
 
 <h2>Parking lot</h2>
 </section>
-<section id="sec-15-1" >
+<section id="sec-17-1" >
 
 <h3>Open Access</h3>
 <ul class="org-ul"><li class="fragment none">Copyright exists to incentiveze creative works of non-trival effort<br/></li>
@@ -404,7 +457,7 @@ And they've been building tools to support reproducibility for the last 30 or 40
 <li class="fragment none">Prestige infrastructure<br/></li></ul>
 
 </section>
-<section id="sec-15-2" >
+<section id="sec-17-2" >
 
 <h3>Software-carpentry</h3>
 <p>
@@ -412,7 +465,7 @@ And they've been building tools to support reproducibility for the last 30 or 40
 </p>
 
 </section>
-<section id="sec-15-3" >
+<section id="sec-17-3" >
 
 <h3>Science Code Manifesto</h3>
 <p>
@@ -443,11 +496,11 @@ Source code must remain available, linked to related materials, for the useful l
 </p>
 </li></ul>
 </section>
-<section id="sec-15-4" >
+<section id="sec-17-4" >
 
 <h3>Modern Reproducible research</h3>
 </section>
-<section id="sec-15-5" >
+<section id="sec-17-5" >
 
 <h3>Who is doing this?</h3>
 <ul class="org-ul"><li class="fragment none">Stanford Group<br/><p>
@@ -492,7 +545,7 @@ Guy behind Science Code Manifesto
 
 
 </section>
-<section id="sec-15-6" >
+<section id="sec-17-6" >
 
 <h3>Linus's Law</h3>
 <p>
@@ -502,7 +555,7 @@ or more formally: <br  />
 [citeRaymond]
 </p>
 </section>
-<section id="sec-15-7" >
+<section id="sec-17-7" >
 
 <h3>Government Github</h3>
 </section>
