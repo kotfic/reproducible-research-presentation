@@ -1,12 +1,11 @@
-#+Title: Reproducible research: open access, open data, open tools and metrics
-#+Author: Christopher Kotfila
-#+Email: ckotfila@albany.edu
-#+OPTIONS: toc:nil num:nil
-
+#+OPTIONS: toc:nil num:nil author:nil email:nil
 #+REVEAL_TRANS: default
 #+REVEAL_THEME: sky
 #+REVEAL_ROOT: revealjs/
 #+REVEAL_HLEVEL: 1
+
+* Reproducible Research
+open access, open data, open tools and metrics
 
 * Introduction
 Christopher Kotfila\\
@@ -38,7 +37,7 @@ cast it in the light of some problems that software engineers have been facing f
 
 and then really what I'm really hoping is that I'll get a chance to show you some really cool tools that have emerged in the last 5 to 10 years
 
-and then talk about how these tools related to open access and open data. 
+and then talk about how these tools relate to open access and open data. 
 #+END_NOTES
 
 ** Caveat 
