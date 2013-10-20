@@ -6,7 +6,7 @@
 <title>(Reproducible research: open access, open data, open tools and metrics)</title>
 <meta name="author" content="(Christopher Kotfila)"/>
 <link rel="stylesheet" href="revealjs/css/reveal.min.css"/>
-<link rel="stylesheet" href="revealjs/css/theme/default.css" id="theme"/>
+<link rel="stylesheet" href="revealjs/css/theme/sky.css" id="theme"/>
 
 <link rel="stylesheet" href="revealjs/css/print/pdf.css" type="text/css" media="print"/>
 </head>
@@ -395,24 +395,26 @@ His quote here really captures the kind of reproducibility that is creating what
 <section id="sec-14" >
 
 <h2>A state of "Crisis"</h2>
+<div style="font-size:20px">
 <ul class="org-ul">
-<li>Begley, C. Glenn and Ellis, Lee M. Drug development: Raise standards for preclinical cancer research, Nature (2012)
+<li>2012 Begley, C. Glenn and Ellis, Lee M. Drug development: Raise standards for preclinical cancer research, Nature
 </li>
-<li>AAAS (2011). AAAS annual meeting: Workshop on the digitization of science: Repro-ducibility and interdisciplinary knowledge transfer.
+<li>2011 AAAS annual meeting: Workshop on the digitization of science: Reproducibility and interdisciplinary knowledge transfer.
 </li>
-<li>AMP (2011). Applied mathematics perspectives workshop on reproducible research: Toolsand strategies for scientific computing applied mathematics perspectives.
+<li>2011 Applied mathematics perspectives workshop on reproducible research: Toolsand strategies for scientific computing applied mathematics perspectives.
 </li>
-<li>SIAM-CSE (2011). SIAM conference on computational science &amp; engineering workshop onverifiable, reproducible computational science.
+<li>2011 SIAM conference on computational science &amp; engineering workshop onverifiable, reproducible computational science.
 </li>
-<li>SIAM-Geo (2011). SIAM geosciences workshop on reproducible science and open-sourcesoftware in the geosciences
+<li>2011 SIAM geosciences workshop on reproducible science and open-sourcesoftware in the geosciences
 </li>
-<li>NSF (2010). National science foundation workshop on changing the conduct of science inthe information age summary.
+<li>2011 Research ethics in biostatistics: Invited panel discussion on the biostatistician’s role in reproducible research.
 </li>
-<li>ENAR (2011). Research ethics in biostatistics: Invited panel discussion at ENAR 2011 onthe biostatistician’s role in reproducible research.
+<li>2010 National science foundation workshop on changing the conduct of science inthe information age summary.
 </li>
-<li>Yale Law School Round Table on Data and Code Sharing (2009)
+<li>2009 Yale Law School Round Table on Data and Code Sharing 
 </li>
 </ul>
+</div>
 
 <aside class="notes">
 <p>
@@ -591,30 +593,24 @@ The most germane tools I want to talk about are in the category of Source Contro
 <section id="sec-19-1" >
 
 <h3>Maybe you've seen this problem before</h3>
-<ul class="org-ul">
-<li class="fragment roll-in">Draft paper.docx
-</li>
-</ul>
-<ul class="org-ul">
-<li class="fragment roll-in">Draft paper2.docx
-</li>
-</ul>
-<ul class="org-ul">
-<li class="fragment roll-in">Draft paper2<sub>old</sub>.docx
-</li>
-</ul>
-<ul class="org-ul">
-<li class="fragment roll-in">Draft paper3<sub>revisions</sub><sub>from</sub><sub>dla</sub>.docx
-</li>
-</ul>
-<ul class="org-ul">
-<li class="fragment roll-in">Final submitted.docx
-</li>
-</ul>
-<ul class="org-ul">
-<li class="fragment roll-in">Final submitted revised.docx
-</li>
-</ul>
+<p class="fragment roll-in">
+Draft paper.docx <br  />
+</p>
+<p class="fragment roll-in">
+Draft paper2.docx <br  />
+</p>
+<p class="fragment roll-in">
+Draft paper2-old.docx <br  />
+</p>
+<p class="fragment roll-in">
+Draft paper3-revisions-from-dla.docx <br  />
+</p>
+<p class="fragment roll-in">
+Final submitted.docx  <br  />
+</p>
+<p class="fragment roll-in">
+Final submitted revised.docx <br  />
+</p>
 <aside class="notes">
 <p>
 Keeping track of changes in a single document is hard
@@ -719,10 +715,12 @@ and with Github,  which is a community built around and ontop of git.
 <h2>Git</h2>
 <p>
 (is a complicated)
-#+BEING<sub>NOTES</sub>
-Git can be complicated -  and I'm not going to do more than give a 100,000 foot view here
-#+END<sub>NOTES</sub>
 </p>
+<aside class="notes">
+<p>
+Git can be complicated -  and I'm not going to do more than give a 100,000 foot view here
+</p>
+</aside>
 
 </section>
 <section id="sec-21-1" >
@@ -744,7 +742,7 @@ relatively new source control management system,  it was created back in 2005.
 </aside>
 
 </section>
-<section id="sec-21-2" >
+<section id="sec-21-2"  data-transition="fade">
 
 <h3>Linus</h3>
 <aside class="notes">
@@ -757,7 +755,7 @@ thats the same "Linu" as in "Linux"
 </p>
 </aside>
 </section>
-<section id="sec-21-3" >
+<section id="sec-21-3"  data-transition="fade">
 
 <h3>Linux</h3>
 <aside class="notes">
@@ -811,19 +809,40 @@ and push changes out to other developers (or researchers)
 <section id="sec-22" >
 
 <h2>Github</h2>
+<p>
+"Build better software, together"
+</p>
 <aside class="notes">
 <p>
-Github is an online community that 
+Github is an online community that is built around and ontop of git. 
+</p>
+
+<p>
+Over 4 million people use github to host and share their code with eachother.
+</p>
+
+<p>
+Githubs model is innovative because they offer free git repository hosting as long as the code you share is public
 </p>
 </aside>
+
 </section>
 <section id="sec-22-1" >
 
-<h3>SCMS are not just for Source Code</h3>
+<h3>Wait, public as in anyone can edit it?</h3>
+<aside class="notes">
 <p>
-Local <a href="https://github.com/blog/1657-introducing-government-github-com">governments are already using</a> Github <br  />
-People are already publishing <a href="https://github.com/timchurches/meta-analyses/blob/master/benefits-of-reproducible-research/benefits-of-reproducible-research.md">articles</a>.
+Wait.. public as in anyone can edit it?
 </p>
+
+<p>
+No, only people who are given permission have write access to the repository,  
+</p>
+
+<p>
+But everyone else (literally world wide)  has read access to materials tracked with a free github repository. 
+</p>
+</aside>
 
 </section>
 <section id="sec-22-2" >
@@ -831,25 +850,34 @@ People are already publishing <a href="https://github.com/timchurches/meta-analy
 <h3>Open Access</h3>
 <aside class="notes">
 <p>
-I think you can make a defensible argument that Github is the single largest open access publication platform that currently exists. 
+Github is a world where "Open Access is the Default"
+</p>
+
+<p>
+and I think you can make a pretty defensible argument that Github is the single largest open access publication platform that currently exists. 
 </p>
 
 <p>
 In particular it provides a particularly fascinating feature that correlates nicely with research workflows.
 </p>
 </aside>
+
 </section>
 <section id="sec-22-3" >
 
-<h3>Forking for Fun and Profit</h3>
+<h3>SCMS are not just for Source Code</h3>
 <p>
-#+BEING<sub>NOTES</sub>
-</p>
-
-<p>
-#+END<sub>NOTES</sub>
+Local <a href="https://github.com/blog/1657-introducing-government-github-com">governments are already using</a> Github <br  />
+People are already publishing <a href="https://github.com/timchurches/meta-analyses/blob/master/benefits-of-reproducible-research/benefits-of-reproducible-research.md">articles</a>.
 </p>
 </section>
+<section id="sec-22-4" >
+
+<h3>Forking for Fun and Profit</h3>
+<aside class="notes">
+</aside>
+</section>
+
 </section>
 <section>
 <section id="sec-23" >
