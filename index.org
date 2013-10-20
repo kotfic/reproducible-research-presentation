@@ -101,22 +101,75 @@ So now there is this system documentation- this paper- that describes a well per
 
 but the system, the solution in its most tangible form is gone.
 
+This brings us to
+
 #+END_NOTES
 
 
 
 * Reproducibility
+#+BEGIN_NOTES
+Fundimentally rooted in scientific skepticism. 
 
+Findings may be interesting - but if they can't be reproduced by third parties in normalalized settings 
+
+Then we're obligated to "take the word of" researchers 
+
+rather than building on a firm foundation of findings that meet the bar of reproducibility
+#+END_NOTES
+
+* Reproducibility creates Credibility 
+
+* Technology enables reproducibility 
+#+BEGIN_NOTES
+Technology has traditionally enabled reproducibility
+#+END_NOTES
 * 
 [[file:img/402px-1665_phil_trans_vol_i_title.png]]
 
 #+BEGIN_NOTES
-Reproducibility is not a new concept - 
+our modern day style of scholarly communication really begins with the introduction of the printing press into the scholarly process
+
+The wide distribution of ideas allowed for scholars across Europe to test and refine the ideas of their peers. 
+
+Today we face a new distribution mechanism: 
+
 #+END_NOTES
-** TODO Notes about early goals of reproducability
+
+
+* The Internet
+** TODO finish notes and trasition for this slide
+#+BEGIN_NOTES
+
 Printing press is the technology that enables the goals of reproducability (as Shirky poitns out - some 150 years later)
 Internet and modern computing is the technology that creates the current threat to the =Credability= of the research process
 But Technology can also help to solve the problem it is creating.
+#+END_NOTES
+
+* Computational Science
+#+BEGIN_NOTES
+While publishers and librarians come to grips with how to best utilize this new distribution mechanism (ie. Open Access)
+
+Researchers have been struggling with how to ensure reproducibility in an environment where computation is becoming the lingua franca. 
+
+#+END_NOTES
+
+
+* The Open Science Pipeline 
+#+BEGIN_NOTES
+Really reproducible research spans all the steps between a data source and a publiction. 
+
+All the steps involved in obtaining,  scrubing, modeling, interpreting and presenting data. 
+
+This doesn't HAVE to be in the context of an open data and open access 
+
+BUT - in this context open reproducible research brings end-to-end transparency to the entire process.
+
+#+END_NOTES
++ Open Data
++ Reproducible Research
++ Open Access
+
 
 * 
 #+BEGIN_QUOTE
@@ -127,26 +180,13 @@ instructions [and data] which generated the figures.”
 David Donoho, 1998.
 #+END_QUOTE
 
-
-* The Open Science Pipeline 
 #+BEGIN_NOTES
-Really reproducible research spans all the steps between a data source and a publiction. 
+David Donoho is one of the reseachers over at Stanford who has been actively involved with the reproducibility movement for decades
 
-All the steps involved in obtaining,  scrubing, modeling and interpreting the data. 
+As Donoho puts it:
 
-This doesn't HAVE to be in the context of an open data and open access 
-
-BUT - in this context open reproducible research brings end-to-end transparency to the entire process.
-
-Luckily Reproducibility is (arguably) the number one  concern of software developers.
-
-And they've been building tools to support reproducibility for the last 30 or 40 years. 
-
+His quote here really captures the kind of reproducibility that is creating what some are describing as a credibility crisis
 #+END_NOTES
-+ Open Data
-+ Reproducible Research
-+ Open Access
-
 
 * A state of "Crisis"
 + Begley, C. Glenn and Ellis, Lee M. Drug development: Raise standards for preclinical cancer research, Nature (2012)
@@ -159,15 +199,47 @@ And they've been building tools to support reproducibility for the last 30 or 40
 + Yale Law School Round Table on Data and Code Sharing (2009)
 
 #+BEGIN_NOTES
-This is the so called "Crisis of reproducibility" 
+Many of these conferences, papers, and authors have proposed tentative solutions that span a spectrum 
 
-Many of these conferences, papers, and authors have proposed solutions,  from pratical implementations of code repositories to policy recommendations that seek to support cultural change.
+from technical implementations of code repositories 
 
-I would like to humbly suggest that 
+to policy recommendations that seek to support socio-cultural change in the academic community.
 #+END_NOTES
 
 
-* Software Developers and Researchers 
+* Some Examples
++ [[http://runmycode.org/][RunMyCode.org]]
++ [[http://www.stat.uni-muenchen.de/~leisch/Sweave/][Sweave]]
++ [[https://openscienceframework.org/][Open Science Framework]]
++ [[http://www.stanford.edu/~vcs/Papers.html][Victoria Stodden's work]]
+
+#+BEGIN_NOTES
+Of course there are many many more examples 
+
+but what I'd like to humbly suggest,  is that at least from a technical perspective,  this is already a solved problem.
+
+And - that there are STRONG examples in the open source software development community
+
+for how resolve the socio-cultural aspects of the computational reproducibility problem.
+
+#+END_NOTES
+
+
+* Open Source Software Developers
+#+BEGIN_NOTES
+Reproducibility is (arguably) the number one concern of open source software developers.
+
+As an software developer,  if the code i write and run on my system 
+
+doesn't run on your system
+
+my code is broken.
+
+And they've been building tools to support reproducibility for the last 30 or 40 years. 
+#+END_NOTES
+
+
+* Open Source Software Developers and Researchers 
 (have a lot in common)
 ** Highly specialized
 ** Experts in their area
@@ -176,25 +248,22 @@ Usually working on teams that are \\
 geographically disparate  \\ 
 culturally diverse
 ** Produce complex processes that 
-+ obtain, 
-+ scrub, 
-+ explore, 
++ obtain 
++ scrub
++ explore
 + model 
-+ and interpret 
-+ data.
-
-* Code and Documentation
++ interpret
++ and display data
+** Code and Documentation
 #+BEGIN_NOTES
 For software developers documentation tends to take a back seat to code 
 
 For researchers code (and data processesing) tends to take a back seat to documentation
 
 and by documentation i mean a publishible paper. 
-
-
 #+END_NOTES
 
-
+* Tools
 
 * Source Control Management System
 ** Maybe you've seen this problem before
@@ -235,7 +304,7 @@ title(main="Autos", col.main="red", font.main=4)
 * Epilogue: Engaging with the presentation
 "A mini-tutorail" 
 
-* Parking lot
+* Parking lot                                                      :noexport:
 ** Open Access
 **** Copyright exists to incentiveze creative works of non-trival effort
 **** For scholars, incentive structure for publication is different
@@ -289,4 +358,107 @@ or more formally: \\
 [citeRaymond]
 
 ** Government Github
+** Provisions, Quid pro quos
++ Qualitative research,  research that lends itself to statistical analysis,  or requires any kind of data transformation before being analyzed.
+** Reproducible research as bridge
++ Open Data provides direct access to data sources that have been created by all types of institutions (Gov, academic, private sector)
+  - Published in many different ways, Raw data files,  API, SPARQL, sometimes this data is useful,  sometimes it is garbage
++ Open Access "advertises" the research,  but isn't the research itself.
+  - Will need to do obligatory introduction to reproducible as foundation of modern science
+  - Open Access is absolutely vital - it raises the visibility of a paper, research, and improves over all impact [citation?] [fn:1] 
++ The ACTUAL research is the transformed data, and the analysis - sometimes this means data cleanup,  sometimes this means large scale data transformation pipelines like in NLP and machine learning
+  - reproducible research is the bridge between open data and open access it takes open data as an input, and produces papers as an output
+
+  - shifting from a "publication as research" model the [data + transformation code + analysis + interpretation] as the research changes the meaning of open access to research
+
+  - This begs an important question - how do we publish this kind of "document"
+
+  - Not restrained by old journal model - can skip growing pains of online journal model (analogy of 1960's movies that were just filmed theater shows?)
+
+  - Some have already discussed blogs, social networking etc as possible outcomes,  but metrics in this environment are still emerging
+
+  - Metrics in the field of software engineering are pretty good though,
+
+  - In broad strokes,  software engineers produce code and documentation,   researchers produce documentation (in the form of publications)  and code. 
+    - software engineers even have a counterpart to Reproducible research - literate programming.
+  - Key component of reproducible is access to the tools that produced to code and documentation - tie in open source
+
+** Tools and Metrics
++ Github and github style metrics
++ Sweave
++ Emacs w/org-mode and org-babel
++ Things out there that are interesting,  but don't quite get the job done
+  - Google Docs (highly collaborate, no version control,  no code integration) 
+  - Authorea - (highly collaborative,  focus on academic's needs) 
+  - runmycode.org ( code but no direct integration with "documentation", collaborative but not quite like github)
++ requirements for the ideal process
+  - Open source tools (so barrier to access to those tools is only technical)
+  - allows collaboration across researchers
+  - embeds research (ie. code) directly into the documentation. 
+  - version control (for archiving!) 
+
+
+[fn:1] This could provide an interesting example for github style issue tracking, someone notes that this claim needs a citation,  author finds citation and adds it into the documents 
+
+
+* Tasks                                                            :noexport:
+** Archive                                                         :ARCHIVE:
+*** DONE find quote about the paper being an advertisement for the reserch
+CLOSED: [2013-10-07 Mon 20:46]
+:PROPERTIES:
+:ARCHIVE_TIME: 2013-10-07 Mon 20:46
+:END:
+** DONE Read Claerbout's history of reproducible research
+CLOSED: [2013-10-20 Sun 10:23]
+[[http://sepwww.stanford.edu/data/media/public/sep//jon/reproducible.html][History of Reproducible Research]]
+
+** DONE Scopus Claerbout's stuff on RR
+CLOSED: [2013-10-20 Sun 10:23]
+** TODO Read more about this Elsiver executible paper competition
+http://www.executablepapers.com/
+** TODO more information about Sweave
+** TODO get more info about SPARQL
+** TODO Does Authorea fit in here?
+https://www.authorea.com/
+
+
+* Papers to Read                                                   :noexport:
+:PROPERTIES:
+:ID:       487c95e9-eafe-46bd-882f-65cfc8aff174
+:END:
++ [[id:cae658a7-daf9-44aa-b4d7-9fe44eaf907b][Stodden, V. :: Reproducible research: Tools and strategies for scientific computing (2012)]]
++ [[id:67c28701-807e-4fac-9f1b-cc5562ed0207][Stodden, Victoria :: Enabling reproducible research: licensing for scientific innovation (2009)]]
++ [[id:a54a04a8-aa72-45b5-bd93-6835e948357a][Knuth, Donald Ervin :: Literate programming (1984)]]
+
++ [[id:39da92be-f1e4-48e4-8efd-7711e53a958d][Hothorn, Torsten and Leisch, Friedrich :: Case studies in reproducibility (2011)]]
++ [[id:f4bdd44c-833e-4f7f-b752-3ee8bc92df9d][Peng, Roger D. :: Reproducible Research in Computational Science (2011)]]
++ [[id:358b6e1e-0898-4ef9-8074-4e869fa5774b][David Donoho and Arian Maleki and Inam Rahman and Morteza Shahram and Victoria Stodden :: 15 Years of Reproducible Research in Computational Harmonic Analysis (2008)]]
++ [[id:d7300347-3a70-4d70-aea6-e7781136c6b0][Schulte, E. and Davison, D. and Dye, T. and Dominik, C. :: A multi-language computing environment for literate programming and reproducible research (2012)]]
+
+
++ [[id:84ecf889-4619-4efc-bd45-fc48d026619b][Baiocchi, G. :: Reproducible research in computational economics: Guidelines, integrated approaches, and open source software (2007)]]
++ [[id:c7581914-7560-40a2-856e-15a987daa778][Van Gorp, P. and Mazanek, S. :: SHARE: A web portal for creating and sharing executable research papers (2011)]]
++ [[id:9c4dbbea-0442-4bf7-a52e-af8298698677][Mesirov, J.P. :: Accessible reproducible research (2010)]]     
+
++ [[id:53e934d9-9567-4cc6-aa83-4ebb7102763f][Vandewalle, P. and Kovacević, J. and Vetterli, M. :: Reproducible research in signal processing: What, why, and how (2009)]]
+
++ [[id:38a3e14d-d9ec-4b01-b315-a778caa59573][Fomel, S. and Claerbout, J.F. :: Guest editors' introduction: Reproducible research (2009)]]
+
+M. Schwab, N. Karrenbach, J. Claerbout, Making scientific computations reproducible. Comput. Sci. Eng. 2, 61 (2000). Search Google Scholar
+C. Laine, S. N. Goodman, M. E. Griswold, H. C. Sox, Reproducible research: Moving toward research the public can really trust. Ann. Intern. Med. 146, 450 (2007). Medline
+G. King, Replication, Replication. PS: Polit. Sci. Polit. 28, 444 (1995). CrossRef
+
++ [[id:a9ab7962-3615-4b49-b460-45bd2c876c4c][Tomi Kauppinen and Giovana Mira de Espindola :: Linked Open Science-Communicating, Sharing and Evaluating Data, Methods and Results for Executable Papers  (2011)]]
+
+** Nature articles
+:PROPERTIES:
+:ID:       642c4d43-1300-42ba-acc7-35c1d3e5901f
+:END:
++ [[id:626ecf83-ad7f-429e-b036-84b10c1c4fe1][Begley, C. Glenn and Ellis, Lee M. :: {Drug development: Raise standards for preclinical cancer research} (2012)]]
++ [[id:066d8daf-ef7e-4efe-82c6-bf044e12e316][Mobley, , Aaron AND Linder, , Suzanne K. AND Braeuer, , Russell AND Ellis, , Lee M. AND Zwelling, , Leonard :: A Survey on Data Reproducibility in Cancer Research Provides Insights into Our Limited Ability to Translate Findings from the Laboratory to the Clinic (2013)]]
+
+
+
+
+
 
