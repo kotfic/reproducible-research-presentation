@@ -165,9 +165,13 @@ BUT - in this context open reproducible research brings end-to-end transparency 
 + Open Access
 
 
-* 
+* Open Reproducible Research
 #+BEGIN_NOTES
-Open Data and Open Access alone are insufficient - Open Reproducible research is a vital apsect 
+Open Data and Open Access alone are insufficient - Open Reproducible research is a vital part of the pipeline
+
+Those interested in advocating for Open Access should be paying very close attention to the reproducible research movement
+
+soon papers won't be the only thing researchers want and need access too.
 #+END_NOTES
 
 
