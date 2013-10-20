@@ -43,7 +43,10 @@ and then talk about how these tools related to open access and open data.
 #+BEGIN_QUOTE
 "Release early release often"[1]
 #+END_QUOTE
-[1] Eric S. Raymond, The Cathedral and the Bazaar (1997)
+ 
+#+BEGIN_HTML
+<sup> [1] Eric S. Raymond, The Cathedral and the Bazaar (1997) </sup>
+#+END_HTML
 
 #+BEGIN_NOTES
 So there is a relatively well established philosophy in software development "Release early release often"
@@ -75,31 +78,21 @@ As an initial exercize I set out to reproduce a well performing system in a part
 * The idea was...
 ** reproduce the system based on the description in the paper,
 
-** try to identify any systematic errors the system made
-
+** try to identify systematic errors
 ** correct those errors
-
 ** publish in a prestigious journal
-
 ** get a tenure-track position at a respected university
-
 ** live happily ever afer
 
 * So It turns out...
 #+BEGIN_NOTES
-So it turns out this wasn't a very good plan - 
+You can probably guess from the title of the talk,  this did not go as planned.
 
-I spent about a month trying to reproduce the system from the paper - too many variables, too much complexity
+The system itself is gone - emailed the authors,  they were extreamly helpful
 
-Finally in desperation I emailed the original authors, while they were extreamly helpful - the original system couldn't be found. 
+but it was stored on a server they no longer have access too.
 
-They had moved to a different institution
-
-It was simply no longer accessable.
-
-So now there is this system documentation- this paper- that describes a well performing system- 
-
-but the system, the solution in its most tangible form is gone.
+the system, the solution in its most tangible form, is gone.
 
 This brings us to
 
