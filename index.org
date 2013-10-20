@@ -166,7 +166,7 @@ BUT - in this context open reproducible research brings end-to-end transparency 
 
 
 * 
-#+BEING_NOTES
+#+BEGIN_NOTES
 Open Data and Open Access alone are insufficient - Open Reproducible research is a vital apsect 
 #+END_NOTES
 
@@ -267,7 +267,7 @@ and by documentation i mean a publishible paper.
 
 
 * Tools
-#+BEING_NOTES
+#+BEGIN_NOTES
 Software developers have been faced with the reproducibility problem for decades
 
 because the success of an open software development project is BASED on its ability to be reproduced across many systems
@@ -278,7 +278,7 @@ Because of the similarities between open source software developers and research
 #+END_NOTES
 
 * Source Control Management Systems
-#+BEING_NOTES
+#+BEGIN_NOTES
 The most germane tools I want to talk about are in the category of Source Control
 #+END_NOTES
 ** Maybe you've seen this problem before
@@ -334,7 +334,7 @@ How exactly this is done is a whole other presentation (at least)
 #+END_NOTES
 
 * Git and Github
-#+BEING_NOTES
+#+BEGIN_NOTES
 Many of these solutions have been around for a long time,  
 
 its only beein the last 5 to 10 years that web technologies have enabled some of the most interesting advances in source control management.
