@@ -41,11 +41,11 @@ and then talk about how these tools related to open access and open data.
 
 ** Caveat 
 #+BEGIN_QUOTE
-"Release early release often"[1]
+"Release early, release often"[1]
 #+END_QUOTE
  
 #+BEGIN_HTML
-<sup> [1] Eric S. Raymond, The Cathedral and the Bazaar (1997) </sup>
+<sup id="fn.1" style="font-size:18px;"> [1] Eric S. Raymond, The Cathedral and the Bazaar (1997) </sup>
 #+END_HTML
 
 #+BEGIN_NOTES
@@ -158,10 +158,17 @@ This doesn't HAVE to be in the context of an open data and open access
 
 BUT - in this context open reproducible research brings end-to-end transparency to the entire process.
 
+
 #+END_NOTES
 + Open Data
 + Reproducible Research
 + Open Access
+
+
+* 
+#+BEING_NOTES
+Open Data and Open Access alone are insufficient - Open Reproducible research is a vital apsect 
+#+END_NOTES
 
 
 * 
@@ -228,7 +235,6 @@ doesn't run on your system
 
 my code is broken.
 
-And they've been building tools to support reproducibility for the last 30 or 40 years. 
 #+END_NOTES
 
 
@@ -254,19 +260,159 @@ For software developers documentation tends to take a back seat to code
 For researchers code (and data processesing) tends to take a back seat to documentation
 
 and by documentation i mean a publishible paper. 
+
 #+END_NOTES
 
+
+
+
 * Tools
+#+BEING_NOTES
+Software developers have been faced with the reproducibility problem for decades
 
-* Source Control Management System
+because the success of an open software development project is BASED on its ability to be reproduced across many systems
+
+open source software DEVELOPERS have produced tools that are optimized to ease this distribution.
+
+Because of the similarities between open source software developers and researchers many of these tools can be recast in light of the research process.
+#+END_NOTES
+
+* Source Control Management Systems
+#+BEING_NOTES
+The most germane tools I want to talk about are in the category of Source Control
+#+END_NOTES
 ** Maybe you've seen this problem before
+#+ATTR_REVEAL: :frag roll-in
++ Draft paper.docx
+#+ATTR_REVEAL: :frag roll-in
++ Draft paper2.docx
+#+ATTR_REVEAL: :frag roll-in
++ Draft paper2_old.docx
+#+ATTR_REVEAL: :frag roll-in
++ Draft paper3_revisions_from_dla.docx
+#+ATTR_REVEAL: :frag roll-in
++ Final submitted.docx
+#+ATTR_REVEAL: :frag roll-in
++ Final submitted revised.docx
+#+BEGIN_NOTES
+Keeping track of changes in a single document is hard
 
-** =Who= did =what=, =when= and =why=?
+Keeping track of changes from a group of authors and reviewers in a single document is even harder
+
+Magnify that difficulty by the thousands and sometimes tens of thousands of documents in an software development project
+
+and you might as well pack up and go home
+#+END_NOTES
+
+
+** *Who* did *what*, *when* and *why*?
+#+BEGIN_NOTES
+The only way to manage this effectively is build a system that tracks WHO did WHAT WHEN, and most importaintly WHY.
+
+Here is an example
+#+END_NOTES
+An Example of a [[https://github.com/kotfic/reproducible-research-presentation/commit/04ff60559adcf31f627f909c2cc4e00f1c564509]["Commit"]]
+
+** Diffs and Patches
+#+BEGIN_NOTES
+Tracking this information in such excrutiating detail provides interesting possibilities
+
+For one it allows you to pass the changes that you make to a document easily to someone else
+
+Source Control Management systems will (mostly)  seamlessly integrate your changes into other people's copy of your document.
+
+additionally this kind of specificity allows for profound archiving possibilities and provides a bedrock for developing altmetrics
+#+END_NOTES
+
+** Repositories
+#+BEGIN_NOTES
+Code that is being tracked and shared with a source control management system is usually stored in a "repository"
+
+Members of a team have read and write access to this repository and the repository is usually used to coordinate changes made by different team members.
+
+How exactly this is done is a whole other presentation (at least)
+#+END_NOTES
+
 * Git and Github
-** The details of git and github are not vital to understand importaint right now
-** Forking for Fun and Profit
+#+BEING_NOTES
+Many of these solutions have been around for a long time,  
+
+its only beein the last 5 to 10 years that web technologies have enabled some of the most interesting advances in source control management.
+
+In particular with Git,  which a source control management system, 
+
+and with Github,  which is a community built around and ontop of git.
+#+END_NOTES
+* Git 
+(is a complicated)
+#+BEING_NOTES
+Git can be complicated -  and I'm not going to do more than give a 100,000 foot view here
+#+END_NOTES
+
+** Linus Torvalds
+[[file:img/Linus.jpg]]
+#+BEGIN_NOTES
+Git is a source control management system created by this gentlman here
+
+Linus Torvalds
+
+relatively new source control management system,  it was created back in 2005.
+#+END_NOTES
+** Linus
+#+BEGIN_NOTES
+For those who don't know - 
+
+thats the same "Linu" as in "Linux"
+#+END_NOTES
+
+** Linux
+#+BEGIN_NOTES
+Linus created the Linux kernl and is some times refered to as the "Benevolent Dictator for Life"
+
+Git is used to manage many open source projects, including the Linux kernel which is (I believe)  around 25 million lines of code.
+#+END_NOTES
+
+** Git is free
+#+BEGIN_NOTES
+All thats really important to understand is that git is a robust, distributed source control management system
+
+Its open source technology, anyone can download and run git.
+#+END_NOTES
+
+** Git is distributed
+#+BEGIN_NOTES
+Git is particularly revolutionary because it does not require a single centralized repository, 
+
+each "clone" of a git repository contains the whole history of the repository 
+
+each clone integrates patches from other developers (or researchers)
+
+and push changes out to other developers (or researchers) 
+#+END_NOTES
+
+
+
+* Github 
+#+BEGIN_NOTES
+Github is an online community that 
+#+END_NOTES
 ** SCMS are not just for Source Code
-https://github.com/blog/1657-introducing-government-github-com
+Local [[https://github.com/blog/1657-introducing-government-github-com][governments are already using]] Github \\
+People are already publishing [[https://github.com/timchurches/meta-analyses/blob/master/benefits-of-reproducible-research/benefits-of-reproducible-research.md][articles]].
+
+
+** Open Access
+#+BEGIN_NOTES
+I think you can make a defensible argument that Github is the single largest open access publication platform that currently exists. 
+
+In particular it provides a particularly fascinating feature that correlates nicely with research workflows.
+
+#+END_NOTES
+
+** Forking for Fun and Profit
+#+BEING_NOTES
+
+#+END_NOTES
 
 * Executable Papers and Literate Programing
 ** Examples
@@ -286,6 +432,9 @@ lines(trucks, type="o", pch=22, lty=2, col="red")
 title(main="Autos", col.main="red", font.main=4)
 
 #+END_SRC
+
+
+https://github.com/kotfic/reproducible-research-presentation/blob/gh-pages/index.html#L590-592
 
 
 * Oh yeah... The Metrics

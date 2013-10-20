@@ -91,11 +91,11 @@ and then talk about how these tools related to open access and open data.
 <h3>Caveat</h3>
 <blockquote>
 <p>
-"Release early release often"<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>
+"Release early, release often"<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>
 </p>
 </blockquote>
 
-<sup> [1] Eric S. Raymond, The Cathedral and the Bazaar (1997) </sup>
+<sup id="fn.1" style="font-size:18px;"> [1] Eric S. Raymond, The Cathedral and the Bazaar (1997) </sup>
 
 <aside class="notes">
 <p>
@@ -346,6 +346,18 @@ BUT - in this context open reproducible research brings end-to-end transparency 
 <section id="sec-12" >
 
 <h2></h2>
+<p>
+#+BEING<sub>NOTES</sub>
+Open Data and Open Access alone are insufficient - Open Reproducible research is a vital apsect 
+#+END<sub>NOTES</sub>
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-13" >
+
+<h2></h2>
 <blockquote>
 <p>
 “The idea is: An article about computational science in a scientific
@@ -372,7 +384,7 @@ His quote here really captures the kind of reproducibility that is creating what
 </section>
 </section>
 <section>
-<section id="sec-13" >
+<section id="sec-14" >
 
 <h2>A state of "Crisis"</h2>
 <ul class="org-ul">
@@ -411,7 +423,7 @@ to policy recommendations that seek to support socio-cultural change in the acad
 
 </section>
 <section>
-<section id="sec-14" >
+<section id="sec-15" >
 
 <h2>Some Examples</h2>
 <ul class="org-ul">
@@ -446,7 +458,7 @@ for how resolve the socio-cultural aspects of the computational reproducibility 
 
 </section>
 <section>
-<section id="sec-15" >
+<section id="sec-16" >
 
 <h2>Open Source Software Developers</h2>
 <aside class="notes">
@@ -465,31 +477,27 @@ doesn't run on your system
 <p>
 my code is broken.
 </p>
-
-<p>
-And they've been building tools to support reproducibility for the last 30 or 40 years. 
-</p>
 </aside>
 </section>
 
 </section>
 <section>
-<section id="sec-16" >
+<section id="sec-17" >
 
 <h2>Open Source Software Developers and Researchers</h2>
 <p>
 (have a lot in common)
 </p>
 </section>
-<section id="sec-16-1" >
+<section id="sec-17-1" >
 
 <h3>Highly specialized</h3>
 </section>
-<section id="sec-16-2" >
+<section id="sec-17-2" >
 
 <h3>Experts in their area</h3>
 </section>
-<section id="sec-16-3" >
+<section id="sec-17-3" >
 
 <h3>Collaborate frequently</h3>
 <p>
@@ -499,7 +507,7 @@ culturally diverse
 </p>
 
 </section>
-<section id="sec-16-4" >
+<section id="sec-17-4" >
 
 <h3>Produce complex processes that</h3>
 <ul class="org-ul">
@@ -518,7 +526,7 @@ culturally diverse
 </ul>
 
 </section>
-<section id="sec-16-5" >
+<section id="sec-17-5" >
 
 <h3>Code and Documentation</h3>
 <aside class="notes">
@@ -535,67 +543,258 @@ and by documentation i mean a publishible paper.
 </p>
 </aside>
 </section>
-</section>
-<section>
-<section id="sec-17" >
 
-<h2>Tools</h2>
-</section>
+
 
 </section>
 <section>
 <section id="sec-18" >
 
-<h2>Source Control Management System</h2>
+<h2>Tools</h2>
+<p>
+#+BEING<sub>NOTES</sub>
+Software developers have been faced with the reproducibility problem for decades
+</p>
+
+<p>
+because the success of an open software development project is BASED on its ability to be reproduced across many systems
+</p>
+
+<p>
+open source software DEVELOPERS have produced tools that are optimized to ease this distribution.
+</p>
+
+<p>
+Because of the similarities between open source software developers and researchers many of these tools can be recast in light of the research process.
+#+END<sub>NOTES</sub>
+</p>
 </section>
-<section id="sec-18-1" >
-
-<h3>Maybe you've seen this problem before</h3>
-
-</section>
-<section id="sec-18-2" >
-
-<h3><code>Who</code> did <code>what</code>, <code>when</code> and <code>why</code>?</h3>
-</section>
-
 </section>
 <section>
 <section id="sec-19" >
 
-<h2>Git and Github</h2>
+<h2>Source Control Management Systems</h2>
+<p>
+#+BEING<sub>NOTES</sub>
+The most germane tools I want to talk about are in the category of Source Control
+#+END<sub>NOTES</sub>
+</p>
 </section>
 <section id="sec-19-1" >
 
-<h3>The details of git and github are not vital to understand importaint right now</h3>
+<h3>Maybe you've seen this problem before</h3>
+<ul class="org-ul">
+<li class="fragment roll-in">Draft paper.docx
+</li>
+</ul>
+<ul class="org-ul">
+<li class="fragment roll-in">Draft paper2.docx
+</li>
+</ul>
+<ul class="org-ul">
+<li class="fragment roll-in">Draft paper2<sub>old</sub>.docx
+</li>
+</ul>
+<ul class="org-ul">
+<li class="fragment roll-in">Draft paper3<sub>revisions</sub><sub>from</sub><sub>dla</sub>.docx
+</li>
+</ul>
+<ul class="org-ul">
+<li class="fragment roll-in">Final submitted.docx
+</li>
+</ul>
+<ul class="org-ul">
+<li class="fragment roll-in">Final submitted revised.docx
+</li>
+</ul>
+<aside class="notes">
+<p>
+Keeping track of changes in a single document is hard
+</p>
+
+<p>
+Keeping track of changes from a group of authors and reviewers in a single document is even harder
+</p>
+
+<p>
+Magnify that difficulty by the thousands and sometimes tens of thousands of documents in an software development project
+</p>
+
+<p>
+and you might as well pack up and go home
+</p>
+</aside>
+
 </section>
 <section id="sec-19-2" >
 
-<h3>Forking for Fun and Profit</h3>
+<h3><b>Who</b> did <b>what</b>, <b>when</b> and <b>why</b>?</h3>
+<aside class="notes">
+<p>
+The only way to manage this effectively is build a system that tracks WHO did WHAT WHEN, and most importaintly WHY.
+</p>
+
+<p>
+Here is an example
+</p>
+</aside>
+<p>
+An Example of a <a href="https://github.com/kotfic/reproducible-research-presentation/commit/04ff60559adcf31f627f909c2cc4e00f1c564509">"Commit"</a>
+</p>
 </section>
 <section id="sec-19-3" >
 
-<h3>SCMS are not just for Source Code</h3>
+<h3>Diffs and Patches</h3>
+<aside class="notes">
 <p>
-<a href="https://github.com/blog/1657-introducing-government-github-com">https://github.com/blog/1657-introducing-government-github-com</a>
+Tracking this information in such excrutiating detail provides interesting possibilities
 </p>
+
+<p>
+For one it allows you to pass the changes that you make to a document easily to someone else
+</p>
+
+<p>
+Source Control Management systems will (mostly)  seamlessly integrate your changes into other people's copy of your document.
+</p>
+
+<p>
+additionally this kind of specificity allows for profound archiving possibilities and provides a bedrock for developing altmetrics
+</p>
+</aside>
+</section>
+<section id="sec-19-4" >
+
+<h3>Repositories</h3>
+<aside class="notes">
+<p>
+Code that is being tracked and shared with a source control management system is usually stored in a "repository"
+</p>
+
+<p>
+Members of a team have read and write access to this repository and the repository is usually used to coordinate changes made by different team members.
+</p>
+
+<p>
+How exactly this is done is a whole other presentation (at least)
+</p>
+</aside>
 </section>
 </section>
 <section>
 <section id="sec-20" >
 
-<h2>Executable Papers and Literate Programing</h2>
-</section>
-<section id="sec-20-1" >
+<h2>Git and Github</h2>
+<p>
+#+BEING<sub>NOTES</sub>
+Many of these solutions have been around for a long time,  
+</p>
 
-<h3>Examples</h3>
-<img src="img/graph.png" alt="graph.png" />
+<p>
+its only beein the last 5 to 10 years that web technologies have enabled some of the most interesting advances in source control management.
+</p>
+
+<p>
+In particular with Git,  which a source control management system, 
+</p>
+
+<p>
+and with Github,  which is a community built around and ontop of git.
+#+END<sub>NOTES</sub>
+</p>
 </section>
 
 </section>
 <section>
 <section id="sec-21" >
 
-<h2>Oh yeah&#x2026; The Metrics</h2>
+<h2>Git</h2>
+<p>
+(is a complicated)
+#+BEING<sub>NOTES</sub>
+Git can be complicated -  and I'm not going to do more than give a 100,000 foot view here
+#+END<sub>NOTES</sub>
+</p>
+
+</section>
+<section id="sec-21-1" >
+
+<h3>Linus Torvalds</h3>
+<img src="img/Linus.jpg" alt="Linus.jpg" />
+<aside class="notes">
+<p>
+Git is a source control management system created by this gentlman here
+</p>
+
+<p>
+Linus Torvalds
+</p>
+
+<p>
+relatively new source control management system,  it was created back in 2005.
+</p>
+</aside>
+
+</section>
+<section id="sec-21-2" >
+
+<h3>Linus</h3>
+<aside class="notes">
+<p>
+For those who don't know - 
+</p>
+
+<p>
+thats the same "Linu" as in "Linux"
+</p>
+</aside>
+</section>
+<section id="sec-21-3" >
+
+<h3>Linux</h3>
+<aside class="notes">
+<p>
+Linus created the Linux kernl and is some times refered to as the "Benevolent Dictator for Life"
+</p>
+
+<p>
+Git is used to manage many open source projects, including the Linux kernel which is (I believe)  around 25 million lines of code.
+</p>
+</aside>
+</section>
+<section id="sec-21-4" >
+
+<h3>Git is free</h3>
+<aside class="notes">
+<p>
+All thats really important to understand is that git is a robust, distributed source control management system
+</p>
+
+<p>
+Its open source technology, anyone can download and run git.
+</p>
+</aside>
+</section>
+<section id="sec-21-5" >
+
+<h3>Git is distributed</h3>
+<aside class="notes">
+<p>
+Git is particularly revolutionary because it does not require a single centralized repository, 
+</p>
+
+<p>
+each "clone" of a git repository contains the whole history of the repository 
+</p>
+
+<p>
+each clone integrates patches from other developers (or researchers)
+</p>
+
+<p>
+and push changes out to other developers (or researchers) 
+</p>
+</aside>
 </section>
 
 
@@ -603,13 +802,82 @@ and by documentation i mean a publishible paper.
 <section>
 <section id="sec-22" >
 
+<h2>Github</h2>
+<aside class="notes">
+<p>
+Github is an online community that 
+</p>
+</aside>
+</section>
+<section id="sec-22-1" >
+
+<h3>SCMS are not just for Source Code</h3>
+<p>
+Local <a href="https://github.com/blog/1657-introducing-government-github-com">governments are already using</a> Github <br  />
+People are already publishing <a href="https://github.com/timchurches/meta-analyses/blob/master/benefits-of-reproducible-research/benefits-of-reproducible-research.md">articles</a>.
+</p>
+
+</section>
+<section id="sec-22-2" >
+
+<h3>Open Access</h3>
+<aside class="notes">
+<p>
+I think you can make a defensible argument that Github is the single largest open access publication platform that currently exists. 
+</p>
+
+<p>
+In particular it provides a particularly fascinating feature that correlates nicely with research workflows.
+</p>
+</aside>
+</section>
+<section id="sec-22-3" >
+
+<h3>Forking for Fun and Profit</h3>
+<p>
+#+BEING<sub>NOTES</sub>
+</p>
+
+<p>
+#+END<sub>NOTES</sub>
+</p>
+</section>
+</section>
+<section>
+<section id="sec-23" >
+
+<h2>Executable Papers and Literate Programing</h2>
+</section>
+<section id="sec-23-1" >
+
+<h3>Examples</h3>
+<img src="img/graph.png" alt="graph.png" />
+
+
+<p>
+<a href="https://github.com/kotfic/reproducible-research-presentation/blob/gh-pages/index.html#L590-592">https://github.com/kotfic/reproducible-research-presentation/blob/gh-pages/index.html#L590-592</a>
+</p>
+</section>
+
+</section>
+<section>
+<section id="sec-24" >
+
+<h2>Oh yeah&#x2026; The Metrics</h2>
+</section>
+
+
+</section>
+<section>
+<section id="sec-25" >
+
 <h2>Final Thought</h2>
 </section>
 
 
 </section>
 <section>
-<section id="sec-23" >
+<section id="sec-26" >
 
 <h2>Epilogue: Engaging with the presentation</h2>
 <p>
