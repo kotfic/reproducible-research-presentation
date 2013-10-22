@@ -3,6 +3,7 @@
 #+REVEAL_THEME: sky
 #+REVEAL_ROOT: revealjs/
 #+REVEAL_HLEVEL: 1
+#+REVEAL_EXTRA_CSS: styles.css
 
 * Reproducible Research
 open access, open data, open tools and metrics
