@@ -52,9 +52,9 @@ So there is a relatively well established philosophy in software development "Re
 
 In software this means,  get your program out there as soon as possible and let people start giving you feedback
 
-This presentation emerges from a number of threads that have been stewing for the last couple of years
+This presentation emerges from a relatively new interest in the topic 
 
-The ideas here are still a little rough,  in true Open Source fashion,  I hope you'll help me refine them. 
+Some of the ideas here are still a little rough,  but in true Open Source fashion,  I hope you'll help me refine them. 
 
 #+END_NOTES
 * An Example from personal experience
@@ -112,30 +112,49 @@ Which brings us to our first point:
 
 * Reproducibility creates Credibility 
 #+BEGIN_NOTES
+Reproducibility creates credibility
 
+A lack of reproducibility introduces uncertainty. 
+
+a sufficient lack of this kind of uncerteainty and you create a crisis of confidence in your findings
 #+END_NOTES
 
-* Technology enables Reproducibility
+* Reproducibility is about Communication
 #+BEGIN_NOTES
-Technology has traditionally enabled reproducibility
+Reproducibility emerges from communication of
+
+Communication of  *Who* did *What* 
+
+Communication of *How* they did it *When* it happend and *Why* it was done
+
 #+END_NOTES
+
+* Technology has enabled Reproducibility
+#+BEGIN_NOTES
+Technology has traditionally enabled reproducibility in science by improving our ability to communicate with eachother
+
+Exibit A:
+#+END_NOTES
+
+
 * 
 [[file:img/402px-1665_phil_trans_vol_i_title.png]]
 
+
+* First Issue, First paragraph First sentence, 
+#+BEGIN_QUOTE
+"Whereas there is nothing more necessary for promoting the improvement of Philosophical Matters, than the communicating [... of] such things as are discovered or put in practice by others."  Henry Oldenburg 1665 
+#+END_QUOTE
+
 #+BEGIN_NOTES
-our modern day style of scholarly communication really begins with the introduction of the printing press into the scholarly process
-
-The wide distribution of ideas allowed for scholars across Europe to test and refine the ideas of their peers. 
-
-Today we face a new distribution mechanism: 
-
+From the very begining scholarly communication has been about communicating findings to others in a way that can be reproduced.
 #+END_NOTES
 
-* Technology makes Reproducibility hard
+* Modern Technologies have outpaced current mechanisms for Reproducibility
 #+BEGIN_NOTES
-Computational science has enabled great advances in human knowledge - 
+Fast Forward - Computational science has enabled great advances in human knowledge - 
 
-Current mechanisms for distributing scientific findings are insufficient
+But historical mechanisms for distributing these new kinds of scientific findings are insufficient
 
 Analysis and interpretation may still fit on 9 pages (not including references)
 
@@ -143,7 +162,7 @@ But the data, the systems, the code - these linger and die on servers in campus 
 
 #+END_NOTES
 
-* Technology can make Reproducibility easy again
+* There are modern Technologies that can make Reproducibility easy again
 #+BEGIN_NOTES
 Thankfully technology can make reproducibility easy again
 
@@ -181,7 +200,9 @@ David Donoho is one of the reseachers over at Stanford who has been actively inv
 
 As Donoho puts it:
 
-His quote here really captures the kind of reproducibility that is creating what some are describing as a credibility crisis
+The failure of current distribution mechanisms - 
+
+both from a technical perspective,  and from a socio-cultural perspective have created a credebility crisis
 #+END_NOTES
 
 * A state of "Crisis"
@@ -212,6 +233,7 @@ proposed solutions run the gamit from technical implementations to to policy rec
 + [[http://www.stat.uni-muenchen.de/~leisch/Sweave/][Sweave]]
 + [[https://openscienceframework.org/][Open Science Framework]]
 + [[http://www.stanford.edu/~vcs/Papers.html][Victoria Stodden's work]]
++ ...
 
 #+BEGIN_NOTES
 Of course there are many many more examples 
@@ -229,7 +251,7 @@ for how resolve the *technical* and *socio-cultural* aspects of the computationa
 #+BEGIN_NOTES
 Reproducibility is (arguably) the number one concern of open source software developers.
 
-As an software developer,  if the code i write and run on my system 
+As a software developer,  if the code i write and run on my system 
 
 doesn't run on your system
 
@@ -237,45 +259,69 @@ my code is broken.
 
 #+END_NOTES
 
+* Software Developers are Tool Oriented
+#+BEGIN_NOTES
+Software developers are tool oriented kind of people
 
-* Open Source Software Developers and Researchers 
+They build the software tools you use every day and they use highly specialized tools to do it
+
+if theres a problem,  
+
+the first thing a software developer thinks is "is there a tool that solves this problem already?"
+
+The second thing they think is - "can I build a tool that solves this problem?"
+#+END_NOTES
+
+* Software
+(is complicated)
+#+BEGIN_NOTES
+Software is complicated and historically trending TOWARDS more complexity,  not AWAY from it
+
+But this complexity is just a problem - and so developers have done what developers know how to do
+
+build software to solve the problem of managing software's growing complexity.
+#+END_NOTES
+
+* Reproducibility
+(is complicated)
+#+BEGIN_NOTES
+
+#+END_NOTES
+
+* Software Tools
+(can ease that complexity)
+#+BEGIN_NOTES
+Tools can ease complexity,  and especially they can ease the complexity of the reproducibility problem. 
+
+The success of an open software development project is BASED on its ability to be reproduced across many systems
+
+open source software DEVELOPERS have produced tools that are optimized to ease this distribution.
+#+END_NOTES
+
+** Open Source Software Developers and Researchers 
 (have a lot in common)
-** Highly specialized
-** Experts in their area
-** Collaborate frequently
+*** Highly specialized 
+*** Experts in their area
+*** Collaborate frequently
 Usually working on teams that are \\
 geographically disparate  \\ 
 culturally diverse
-** Produce complex processes that 
+*** Often Work in Silos 
+*** Produce complex processes that 
 + obtain 
 + scrub
 + explore
 + model 
 + interpret
 + and display data
-** Code and Documentation
+
+
+* Tools for Reproducible Research
 #+BEGIN_NOTES
-For software developers documentation tends to take a back seat to code 
-
-For researchers code (and data processesing) tends to take a back seat to documentation
-
-and by documentation i mean a publishible paper. 
-
-#+END_NOTES
-
-
-
-
-* Tools
-#+BEGIN_NOTES
-Software developers have been faced with the reproducibility problem for decades
-
-because the success of an open software development project is BASED on its ability to be reproduced across many systems
-
-open source software DEVELOPERS have produced tools that are optimized to ease this distribution.
-
 Because of the similarities between open source software developers and researchers many of these tools can be recast in light of the research process.
 #+END_NOTES
+
+
 
 * Source Control Management Systems
 #+BEGIN_NOTES
@@ -583,6 +629,16 @@ But Technology can also help to solve the problem it is creating.
 While publishers and librarians come to grips with how to best utilize this new distribution mechanism (ie. Open Access)
 
 Researchers have been struggling with how to ensure reproducibility in an environment where computation is becoming the lingua franca. 
+
+#+END_NOTES
+
+** Produce code and documentation
+#+BEGIN_NOTES
+For software developers documentation tends to take a back seat to code 
+
+For researchers code (and data processesing) tends to take a back seat to documentation
+
+and by documentation i mean a publishible paper. 
 
 #+END_NOTES
 
