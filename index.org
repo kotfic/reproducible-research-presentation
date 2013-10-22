@@ -422,7 +422,7 @@ Git can provide a blow by blow, hour by hour account of how the research evolved
 
 ** This is where Git gets complicated
 #+BEGIN_NOTES
-Trying to understand exactly how git does this is where things start to get complicated.
+Trying to understand exactly how git does this is where things start to get jargony.
 
 What its important to capture here is that a file (or a 100 files,  or 100,000 files) are just a recorded serise of small changes over time
 
@@ -444,60 +444,118 @@ And here it gets a little freaky,  because you guys can actually see my notes
 
 [Use: "Cleaning up argument for technologies role in reproducibile research"]
 
+All of this is contained with in a "Repository"  which holds the files under version control and the complete history of those files.
 
 #+END_NOTES
 
 * Github 
 "Build better software, together"
 #+BEGIN_NOTES
+So what we were just looking at was actually Github - not strictly "Git"
+
 Github is an online community that is built around and ontop of git. 
 
 Over 4 million people use github to host and share their code with eachother.
 
-Githubs model is innovative because they offer free git repository hosting as long as the code you share is public
-
 #+END_NOTES
-
-** Wait, public as in anyone can edit it?
+** Github is Free Hosting for Public Projects
 #+BEGIN_NOTES
-Wait.. public as in anyone can edit it?
+Githubs model is really innovative because they offer free git repository hosting 
 
-No, only people who are given permission have write access to the repository,  
+as long as the code you share is publicly readable
 
-But everyone else (literally world wide)  has read access to materials tracked with a free github repository. 
+as a repository author you can descide who has direct write access,  
 
+but ANYONE can make a copy of your work and start thier own line of development
 #+END_NOTES
-
 
 ** Open Access
 #+BEGIN_NOTES
-Github is a world where "Open Access is the Default"
+Github is a world where "Open is the Default"
 
 and I think you can make a pretty defensible argument that Github is the single largest open access publication platform that currently exists. 
 
 In particular it provides a particularly fascinating feature that correlates nicely with research workflows.
 #+END_NOTES
 
-
-** SCMS are not just for Source Code
-Local [[https://github.com/blog/1657-introducing-government-github-com][governments are already using]] Github \\
-People are already publishing [[https://github.com/timchurches/meta-analyses/blob/master/benefits-of-reproducible-research/benefits-of-reproducible-research.md][articles]].
-
-** Forking for Fun and Profit
+** Forking
 #+BEGIN_NOTES
+Forking 
+
+and as a mechanism,  it codifies what makes open source development so special.
+
+Even though I might not have direct access to modify your code,  I can make a copy of it and start making changes that suit me
+
+If my changes end up having wide applicability,  I can ask you, the original author to accept my changes BACK into the original project.
+#+END_NOTES
+
+** to Research is to Fork
+#+BEGIN_NOTES
+Researchers Fork in this way all the time. 
+
+They read literature until they understand the intracacies of a domain,  
+
+bring their own perspective and expertise to bear on that domain and then 
+
+contribute back to the literature through new publications.
+#+END_NOTES
+
+** Hybrid Literature
+#+BEGIN_NOTES
+The problem is,  the 'literature',  the scientific record,   is no longer JUST papers and proceedings
+
+Its DATA and CODE as well as text and figures. And if reseachers wish to remain credible 
+
+They will need tools that support capturing the ENTIRE process by which they arived at their interpretations.
+
+And venues that support publication of these kinds of histories.
+#+END_NOTES
+
+* Oh yeah... The Metrics
+Lets look at [[https://github.com/git/git][Git]]
+#+BEGIN_NOTES
+So, Because the activity of contributors is tracked with such detail,  
+
+There is an enormous amount of raw data that is potentially available for generating metrics for researcher activity.
+
+Instead of focusing on these sort of punctuated, episodic, papers that might provide a couple of data points about a researcher each year
+
+We can look at the projects they've contributed too and get a much clearer picture of researcher activity.
+
+In fact this is already happening - in certain areas of software development your github account IS your CV
 
 #+END_NOTES
 
-
-
-* Oh yeah... The Metrics
-
-
 * Final Thought
+#+BEGIN_NOTES
+This last weekend I re-watched "White Christmas" with Bing Crosby and Danny Kaye
 
+If you've never see it its one of these classic mid-50's musicals -
+
+Whats shocking to me ever time i rewatch these kinds of films - 
+
+is just how much of the movie is a filmed stage performance.
+
+You can really see these sorts of moviews as a shift from one medium to the next
+
+from stage to film
+
+And academic journal publication are really experiencing this same kind of medium shift
+
+Digital journals have so much more to offer than print journals,  
+
+but we've just scratched the surface of whats possible.
+#+END_NOTES
 
 * Epilogue: Engaging with the presentation
-"A mini-tutorail" 
+"[[https://github.com/kotfic/reproducible-research-presentation][A mini tutrial]]" 
+#+BEGIN_NOTES
+So I'm a practice what you preach kind of guy -
+
+If you see something you feel is wrong, could be clearer,  or needs more support
+
+I'd like to show you how you can engage with the presentation
+#+END_NOTES
 
 * Parking lot                                                      :noexport:
 ** Open Access
@@ -542,7 +600,6 @@ http://www.nature.com/news/2010/101013/full/467753a.html
 #+END_NOTES
 **** Elsiver?
 http://www.executablepapers.com/
-
 
 
 ** Linus's Law
@@ -713,7 +770,6 @@ each clone integrates patches from other developers (or researchers)
 and push changes out to other developers (or researchers) 
 #+END_NOTES
 
-
 ** Patches
 #+BEGIN_NOTES
 To understand how git does this we need to understand the concept of a patch
@@ -733,6 +789,11 @@ I create an empty file,  we'll call this version 0 of the file (programmers usua
 
 I make some changes to the file and I save it,  
 #+END_NOTES
+
+** SCMS are not just for Source Code
+Local [[https://github.com/blog/1657-introducing-government-github-com][governments are already using]] Github \\
+People are already publishing [[https://github.com/timchurches/meta-analyses/blob/master/benefits-of-reproducible-research/benefits-of-reproducible-research.md][articles]].
+
 
 
 * Tasks                                                            :noexport:
