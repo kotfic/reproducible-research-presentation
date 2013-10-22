@@ -104,17 +104,17 @@ As an initial exercize I set out to reproduce a well performing system in a part
 #+BEGIN_NOTES
 So it turns out,  this wasn't really a great plan -
 
-The system is unrecoverable, 
+The code is unavailable-  and sadly un-reproducible.
 
-and sadly (for me at least) un-reproducible.
+So naively - This was a complete shock to me - 
 
-This is the experience that got me interested in the topic 
+The publication was open access - which is great - but in the end the publication wasn't enough
 
-so lets talk a little more about some of the background
+so this presentation  is really a product of that experience and a desire to understand why it happened
+
+and how to fix it
 
 #+END_NOTES
-
-
 
 * Reproducibility
 #+BEGIN_NOTES
@@ -122,39 +122,32 @@ Fundimentally rooted in scientific skepticism.
 
 Findings may be interesting - but if they can't be reproduced by other researchers in normalalized settings 
 
-Then those findings are suspect - they don't meet the "bar" of reproducibility
+Then those findings are suspect
 
-Which brings us to our first point:
-#+END_NOTES
 
-* Reproducibility creates Credibility 
-#+BEGIN_NOTES
-Reproducibility creates credibility
-
-A lack of reproducibility introduces uncertainty. 
-
-a sufficient lack of this kind of uncerteainty and you create a crisis of confidence in your findings
 #+END_NOTES
 
 * Reproducibility is about Communication
 #+BEGIN_NOTES
+
 Reproducibility is about Communicatoin
 
-it emerges from communication of *Who* did *What* 
+its about communicating a methodology - as a skeptic I want to know  WHO did WHAT
 
-Communication of *How* they did it *When* it happend and *Why* it was done
+I want to know HOW it was done WHY it was done and what were the results?
+
+Reproducibility is about communicating with sufficient detail,  that I can verify these things for myself.
 
 #+END_NOTES
 
-* Technology has enabled Reproducibility
+* Technology enables Reproducibility
 #+BEGIN_NOTES
-Technology has traditionally enabled reproducibility in science by improving our ability to communicate 
+Technology has traditionally enabled reproducibility in research by improving our ability to communicate 
 
-*Who* *What* *When* and *Why* with eachother
+Who What When How and Why with eachother.
 
-Exibit A:
+And the first technological advance that really enabled reproducibility was:
 #+END_NOTES
-
 
 * 
 [[file:img/402px-1665_phil_trans_vol_i_title.png]]
@@ -163,34 +156,41 @@ The Philosophical transactions of the Royal Societiy of London,
 
 Published in 1665 it was the first of what we would consider an "academic" journal
 #+END_NOTES
-
 * First Issue, First paragraph First sentence, 
 #+BEGIN_QUOTE
 "Whereas there is nothing more necessary for promoting the improvement of Philosophical Matters, than the communicating [... of] such things as are discovered or put in practice by others."  Henry Oldenburg 1665 
 #+END_QUOTE
 
 #+BEGIN_NOTES
-From the very begining scholarly communication has been about communicating findings to others in a way that can be reproduced.
-#+END_NOTES
+And on the very first page, very first sentence, Henry Oldenburg writes:
 
+"Whereas there is nothing more necessary for promoting the improvement of Philosophical Matters, than the communicating [... of] such things as are discovered or put in practice by others."
+
+From the very begining scholarly communication has been about transfering findings to others in a way that can be reproduced
+
+and importaintly built upon.
+
+#+END_NOTES
 * Modern Technologies make Reproducibility hard
 #+BEGIN_NOTES
-Fast Forward - Computational science has enabled great advances in human knowledge - 
+Fast Forward modern times - Computational science has enabled great advances in human knowledge - 
 
 But historical mechanisms for communicating these new kinds of scientific findings have lagged.
 
 Analysis and interpretation may still fit on 9 pages (including references)
 
-But the data, the systems, the code - these linger and die on servers in campus closets.
+But the data, the systems, the code - the research in its gory detail
+
+these things linger and die on servers in campus closets.
 #+END_NOTES
 
 * Modern Technologies can make Reproducibility easy again
 #+BEGIN_NOTES
 Thankfully technology can make reproducibility easy again
 
-Not just by rescuing code and uploading it to institutional repositories
+Not just by rescuing code and making it available online...
 
-But by brining the entire history of the research process the produced a publication out into the open
+But by brining the entire evolution of a publication out into the open.
 #+END_NOTES
 
 * The Open Science Pipeline 
@@ -199,7 +199,7 @@ And so really, reproducible research is concerned with ALL the steps between a d
 
 This means obtaining, scrubing, modeling, interpreting and presenting data. 
 
-This doesn't HAVE to be in the context of an open data and open access 
+This doesn't HAVE to be in the context of open data and open access 
 
 BUT - in this context open reproducible research brings end-to-end transparency to the entire process.
 
@@ -220,9 +220,20 @@ David Donoho is one of the reseachers over at Stanford who has been actively inv
 
 As Donoho puts it:
 
-The failure of current distribution and communication mechanisms - 
+Modern methodologies are being deeply influenced by computation - but this type of reproducibility continues to be rare.
+#+END_NOTES
 
-both from a technical perspective,  and from a socio-cultural perspective have created a crisis of credibility
+* Reproducibility creates Credibility 
+#+BEGIN_NOTES
+Reproducibility creates credibility
+
+A finding only deserves to be published, read, cited if it can be reproduced
+
+a lack of reproducibility introduces uncertainty. 
+
+a sufficient lack of this kind of uncertainty and you create a crisis of confidence - 
+
+and reciently there have been several high profile cases of irreproducible results
 #+END_NOTES
 
 * A state of "Crisis"
@@ -289,7 +300,7 @@ if theres a problem,
 
 the first thing a software developer thinks is "is there a tool that solves this problem already?"
 
-The second thing they think is - "can I build a tool that solves this problem?"
+And if NOT - "can I build a tool that solves this problem?"
 #+END_NOTES
 
 * Software
@@ -321,7 +332,7 @@ But - Software tools can ease complexity,
 
 and especially they can ease the complexity of the reproducibility problem. 
 
-Because the reproducibility problem modern computational scientists face is profoundly similar to the reproducibility problems open source software developers face
+The reproducibility problem modern computational scientists face is profoundly similar to the reproducibility problems open source software developers face
 
 In fact...
 #+END_NOTES
@@ -382,7 +393,7 @@ So git is apart of a class of software systems called Source Control Management 
 
 The Goal of any source control management system is keep a complete history of the changes that are made to a file or files
 
-Git and other SCMS's help to do this in excruciating detail.
+
 #+END_NOTES
 ** Maybe you've seen this problem before
 #+ATTR_REVEAL: :frag roll-in
@@ -462,7 +473,7 @@ Over 4 million people use github to host and share their code with eachother.
 #+BEGIN_NOTES
 Githubs model is really innovative because they offer free git repository hosting 
 
-as long as the code you share is publicly readable
+as long as the repository is created is publicly readable
 
 as a repository author you can descide who has direct write access,  
 
@@ -480,9 +491,9 @@ In particular it provides a particularly fascinating feature that correlates nic
 
 ** Forking
 #+BEGIN_NOTES
-Forking 
+"Forking" is the process of copying someone elses repository into a new line of personal development
 
-and as a mechanism,  it codifies what makes open source development so special.
+as a mechanism,  it codifies what makes open source development so special.
 
 Even though I might not have direct access to modify your code,  I can make a copy of it and start making changes that suit me
 
@@ -556,6 +567,8 @@ If you see something you feel is wrong, could be clearer,  or needs more support
 
 I'd like to show you how you can engage with the presentation
 #+END_NOTES
+
+
 
 * Parking lot                                                      :noexport:
 ** Open Access
@@ -795,7 +808,6 @@ Local [[https://github.com/blog/1657-introducing-government-github-com][governme
 People are already publishing [[https://github.com/timchurches/meta-analyses/blob/master/benefits-of-reproducible-research/benefits-of-reproducible-research.md][articles]].
 
 
-
 * Tasks                                                            :noexport:
 ** Archive                                                         :ARCHIVE:
 *** DONE find quote about the paper being an advertisement for the reserch
@@ -815,7 +827,6 @@ http://www.executablepapers.com/
 ** TODO get more info about SPARQL
 ** TODO Does Authorea fit in here?
 https://www.authorea.com/
-
 
 * Papers to Read                                                   :noexport:
 :PROPERTIES:
