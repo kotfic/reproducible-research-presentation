@@ -1,4 +1,5 @@
 #+OPTIONS: toc:nil num:nil author:nil email:nil
+#+OPTIONS: reveal_process:nil reveal_history:nil
 #+REVEAL_TRANS: default
 #+REVEAL_THEME: sky
 #+REVEAL_ROOT: revealjs/
@@ -157,11 +158,11 @@ Exibit A:
 
 * 
 [[file:img/402px-1665_phil_trans_vol_i_title.png]]
-#+BEGIN_QUOTE
+#+BEGIN_NOTES
 The Philosophical transactions of the Royal Societiy of London,
 
 Published in 1665 it was the first of what we would consider an "academic" journal
-#+END_QUOTE
+#+END_NOTES
 
 * First Issue, First paragraph First sentence, 
 #+BEGIN_QUOTE
@@ -327,13 +328,13 @@ In fact...
 
 * Open Source Software Developers and Researchers 
 (have a lot in common)
-*** Highly specialized 
-*** Experts in their area
-*** Collaborate frequently
+** Highly specialized 
+** Experts in their area
+** Collaborate frequently
 Usually working on teams that are \\
 geographically disparate  \\ 
 culturally diverse
-*** Produce complex processes that 
+** Produce complex processes that 
 + obtain 
 + scrub
 + explore
