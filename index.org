@@ -122,9 +122,9 @@ a sufficient lack of this kind of uncerteainty and you create a crisis of confid
 
 * Reproducibility is about Communication
 #+BEGIN_NOTES
-Reproducibility emerges from communication of
+Reproducibility is about Communicatoin
 
-Communication of  *Who* did *What* 
+it emerges from communication of *Who* did *What* 
 
 Communication of *How* they did it *When* it happend and *Why* it was done
 
@@ -132,7 +132,9 @@ Communication of *How* they did it *When* it happend and *Why* it was done
 
 * Technology has enabled Reproducibility
 #+BEGIN_NOTES
-Technology has traditionally enabled reproducibility in science by improving our ability to communicate with eachother
+Technology has traditionally enabled reproducibility in science by improving our ability to communicate 
+
+*Who* *What* *When* and *Why* with eachother
 
 Exibit A:
 #+END_NOTES
@@ -140,7 +142,11 @@ Exibit A:
 
 * 
 [[file:img/402px-1665_phil_trans_vol_i_title.png]]
+#+BEGIN_QUOTE
+The Philosophical transactions of the Royal Societiy of London,
 
+Published in 1665 it was the first of what we would consider an "academic" journal
+#+END_QUOTE
 
 * First Issue, First paragraph First sentence, 
 #+BEGIN_QUOTE
@@ -151,30 +157,29 @@ Exibit A:
 From the very begining scholarly communication has been about communicating findings to others in a way that can be reproduced.
 #+END_NOTES
 
-* Modern Technologies have outpaced current mechanisms for Reproducibility
+* Modern Technologies make Reproducibility hard
 #+BEGIN_NOTES
 Fast Forward - Computational science has enabled great advances in human knowledge - 
 
-But historical mechanisms for distributing these new kinds of scientific findings are insufficient
+But historical mechanisms for communicating these new kinds of scientific findings have lagged.
 
-Analysis and interpretation may still fit on 9 pages (not including references)
+Analysis and interpretation may still fit on 9 pages (including references)
 
 But the data, the systems, the code - these linger and die on servers in campus closets.
-
 #+END_NOTES
 
-* There are modern Technologies that can make Reproducibility easy again
+* Modern Technologies can make Reproducibility easy again
 #+BEGIN_NOTES
 Thankfully technology can make reproducibility easy again
 
-Not just rescuing code by uploading it to repositories
+Not just by rescuing code and uploading it to institutional repositories
 
-But by brining the entire research process out into the open
+But by brining the entire history of the research process the produced a publication out into the open
 #+END_NOTES
 
 * The Open Science Pipeline 
 #+BEGIN_NOTES
-Really, reproducible research is concerned with ALL the steps between a data source and a publiction. 
+And so really, reproducible research is concerned with ALL the steps between a data source and a publiction. 
 
 This means obtaining, scrubing, modeling, interpreting and presenting data. 
 
@@ -183,9 +188,7 @@ This doesn't HAVE to be in the context of an open data and open access
 BUT - in this context open reproducible research brings end-to-end transparency to the entire process.
 
 #+END_NOTES
-+ Open Data
-+ Reproducible Research
-+ Open Access
+Open Data -> Reproducible Research -> Open Access
 
 * 
 #+BEGIN_QUOTE
@@ -201,13 +204,13 @@ David Donoho is one of the reseachers over at Stanford who has been actively inv
 
 As Donoho puts it:
 
-The failure of current distribution mechanisms - 
+The failure of current distribution and communication mechanisms - 
 
-both from a technical perspective,  and from a socio-cultural perspective have created a credebility crisis
+both from a technical perspective,  and from a socio-cultural perspective have created a crisis of credibility
 #+END_NOTES
 
 * A state of "Crisis"
-#+REVEAL_HTML: <div style="font-size:16px">
+#+REVEAL_HTML: <div style="font-size:18px">
 + 2012 Begley, C. Glenn and Ellis, Lee M. Drug development: Raise standards for preclinical cancer research, Nature
 + 2011 AAAS annual meeting: Workshop on the digitization of science
 + 2011 Applied mathematics perspectives workshop on reproducible research
@@ -286,20 +289,28 @@ build software to solve the problem of managing software's growing complexity.
 * Reproducibility
 (is complicated)
 #+BEGIN_NOTES
+Data has to be obtained and investigates, 
 
+Models have to be created and discarded, 
+
+Hours of iteration, exploration, and dead ends go into final publications,
+
+Keeping track of all the behind the scenes work involves a lot of complex processes
 #+END_NOTES
 
 * Software Tools
 (can ease that complexity)
 #+BEGIN_NOTES
-Tools can ease complexity,  and especially they can ease the complexity of the reproducibility problem. 
+But - Software tools can ease complexity,  
 
-The success of an open software development project is BASED on its ability to be reproduced across many systems
+and especially they can ease the complexity of the reproducibility problem. 
 
-open source software DEVELOPERS have produced tools that are optimized to ease this distribution.
+Because the reproducibility problem modern computational scientists face is profoundly similar to the reproducibility problems open source software developers face
+
+In fact...
 #+END_NOTES
 
-** Open Source Software Developers and Researchers 
+* Open Source Software Developers and Researchers 
 (have a lot in common)
 *** Highly specialized 
 *** Experts in their area
@@ -307,7 +318,6 @@ open source software DEVELOPERS have produced tools that are optimized to ease t
 Usually working on teams that are \\
 geographically disparate  \\ 
 culturally diverse
-*** Often Work in Silos 
 *** Produce complex processes that 
 + obtain 
 + scrub
@@ -319,14 +329,44 @@ culturally diverse
 
 * Tools for Reproducible Research
 #+BEGIN_NOTES
+The success of an open software development project is BASED on its ability to be reproduced across many systems
+
+open source software DEVELOPERS have produced tools that are optimized to ease this distribution.
+
 Because of the similarities between open source software developers and researchers many of these tools can be recast in light of the research process.
 #+END_NOTES
 
 
-
-* Source Control Management Systems
+* Git and Github
 #+BEGIN_NOTES
-The most germane tools I want to talk about are in the category of Source Control
+So I want to talk about Git and Github
+
+If we think of the reproducibility problem as both *technical* and *socio-cultural* than
+
+Git is the response to the technical issues
+
+and Github is the response to the social-cultural issues
+#+END_NOTES
+
+
+* Git 
+#+BEGIN_NOTES
+So - git can be complicated -  
+
+and my goal here is really to give a 100,000 foot view
+
+I say this because i'm going to be glossing over some stuff in the interest of time
+
+But if you're interested i'll be available to talk to you ad-nauseum after the presentations today
+#+END_NOTES
+
+** Git is a Source Control Management Systems
+#+BEGIN_NOTES
+So git is apart of a class of software systems called Source Control Management Systems
+
+The Goal of any source control management system is keep a complete history of the changes that are made to a file or files
+
+Git and other SCMS's help to do this in excruciating detail.
 #+END_NOTES
 ** Maybe you've seen this problem before
 #+ATTR_REVEAL: :frag roll-in
@@ -342,109 +382,48 @@ Final submitted.docx  \\
 #+ATTR_REVEAL: :frag roll-in
 Final submitted revised.docx \\
 #+BEGIN_NOTES
-Keeping track of changes in a single document is hard
+So maybe you've seen this problem before...
 
-Keeping track of changes from a group of authors and reviewers in a single document is even harder
+keeping track of changes in a single document is hard
 
-Magnify that difficulty by the thousands and sometimes tens of thousands of documents in an software development project
+keeping track of changes from a group of authors and reviewers in a single document is even harder
+
+magnify that difficulty by the thousands and sometimes tens of thousands of documents in an software development project
 
 and you might as well pack up and go home
 #+END_NOTES
 
 
-** *Who* did *what*, *when* and *why*?
+** Git is about Communication
+*Who* did *what*, *when* and *why*?
 #+BEGIN_NOTES
-The only way to manage this effectively is build a system that tracks WHO did WHAT WHEN, and most importaintly WHY.
+So Git helps you keep track of *Who* did *What* *When* and *Why* in excruciating detail
 
-Here is an example
-#+END_NOTES
-An Example of a [[https://github.com/kotfic/reproducible-research-presentation/commit/04ff60559adcf31f627f909c2cc4e00f1c564509]["Commit"]]
+While a methodology section gives a broad overview of how an experiment was conducted
 
-** Diffs and Patches
-#+BEGIN_NOTES
-Tracking this information in such excrutiating detail provides interesting possibilities
-
-For one it allows you to pass the changes that you make to a document easily to someone else
-
-Source Control Management systems will (mostly)  seamlessly integrate your changes into other people's copy of your document.
-
-additionally this kind of specificity allows for profound archiving possibilities and provides a bedrock for developing altmetrics
+Git can provide a blow by blow, hour by hour account of how the research evolved. 
 #+END_NOTES
 
-** Repositories
+** This is where Git gets complicated
 #+BEGIN_NOTES
-Code that is being tracked and shared with a source control management system is usually stored in a "repository"
+Trying to understand exactly how git does this is where things start to get complicated.
 
-Members of a team have read and write access to this repository and the repository is usually used to coordinate changes made by different team members.
+What its important to capture here is that a file (or a 100 files,  or 100,000 files) are just a recorded serise of small changes over time
 
-How exactly this is done is a whole other presentation (at least)
+Git can pass these changes around to other collaborators and make sure *THIER* copy of a document stays in sync with *YOUR* copy of that document
+
+And in the process - it keeps a complete history of every change that everyone made.
 #+END_NOTES
 
-* Git and Github
+** Lets see an Example
+[[https://github.com/kotfic/reproducible-research-presentation/blob/gh-pages/index.html][reproducible-research-presentation]]
 #+BEGIN_NOTES
-Many of these solutions have been around for a long time,  
+So This presentation is hosted on Github and version controlled with Git
 
-its only beein the last 5 to 10 years that web technologies have enabled some of the most interesting advances in source control management.
+Its an HTML file and it uses a javascript library called "reveal.js"
 
-In particular with Git,  which a source control management system, 
 
-and with Github,  which is a community built around and ontop of git.
 #+END_NOTES
-* Git 
-(is a complicated)
-#+BEGIN_NOTES
-Git can be complicated -  and I'm not going to do more than give a 100,000 foot view here
-#+END_NOTES
-
-** Linus Torvalds
-[[file:img/Linus.jpg]]
-#+BEGIN_NOTES
-Git is a source control management system created by this gentlman here
-
-Linus Torvalds
-
-relatively new source control management system,  it was created back in 2005.
-#+END_NOTES
-** Linus
-:PROPERTIES:
-:REVEAL_TRANS: fade
-:END:
-
-#+BEGIN_NOTES
-For those who don't know - 
-
-thats the same "Linu" as in "Linux"
-#+END_NOTES
-
-** Linux
-:PROPERTIES:
-:REVEAL_TRANS: fade
-:END:
-#+BEGIN_NOTES
-Linus created the Linux kernl and is some times refered to as the "Benevolent Dictator for Life"
-
-Git is used to manage many open source projects, including the Linux kernel which is (I believe)  around 25 million lines of code.
-#+END_NOTES
-
-** Git is free
-#+BEGIN_NOTES
-All thats really important to understand is that git is a robust, distributed source control management system
-
-Its open source technology, anyone can download and run git.
-#+END_NOTES
-
-** Git is distributed
-#+BEGIN_NOTES
-Git is particularly revolutionary because it does not require a single centralized repository, 
-
-each "clone" of a git repository contains the whole history of the repository 
-
-each clone integrates patches from other developers (or researchers)
-
-and push changes out to other developers (or researchers) 
-#+END_NOTES
-
-
 
 * Github 
 "Build better software, together"
@@ -486,7 +465,6 @@ People are already publishing [[https://github.com/timchurches/meta-analyses/blo
 #+BEGIN_NOTES
 
 #+END_NOTES
-
 
 
 
@@ -641,6 +619,97 @@ For researchers code (and data processesing) tends to take a back seat to docume
 
 and by documentation i mean a publishible paper. 
 
+#+END_NOTES
+
+** And example of a commit
+An Example of a [[https://github.com/kotfic/reproducible-research-presentation/commit/04ff60559adcf31f627f909c2cc4e00f1c564509]["Commit"]]
+** Diffs and Patches
+#+BEGIN_NOTES
+Tracking this information in such excrutiating detail provides interesting possibilities
+
+For one it allows you to pass the changes that you make to a document easily to someone else
+
+Source Control Management systems will (mostly)  seamlessly integrate your changes into other people's copy of your document.
+
+additionally this kind of specificity allows for profound archiving possibilities and provides a bedrock for developing altmetrics
+#+END_NOTES
+
+** Repositories
+#+BEGIN_NOTES
+Code that is being tracked and shared with a source control management system is usually stored in a "repository"
+
+Members of a team have read and write access to this repository and the repository is usually used to coordinate changes made by different team members.
+
+How exactly this is done is a whole other presentation (at least)
+#+END_NOTES
+
+** Linus Torvalds
+[[file:img/Linus.jpg]]
+#+BEGIN_NOTES
+Git is a source control management system created by this gentlman here
+
+Linus Torvalds
+
+relatively new source control management system,  it was created back in 2005.
+#+END_NOTES
+** Linus
+:PROPERTIES:
+:REVEAL_TRANS: fade
+:END:
+
+#+BEGIN_NOTES
+For those who don't know - 
+
+thats the same "Linu" as in "Linux"
+#+END_NOTES
+
+** Linux
+:PROPERTIES:
+:REVEAL_TRANS: fade
+:END:
+#+BEGIN_NOTES
+Linus created the Linux kernl and is some times refered to as the "Benevolent Dictator for Life"
+
+Git is used to manage many open source projects, including the Linux kernel which is (I believe)  around 25 million lines of code.
+#+END_NOTES
+
+** Git is free
+#+BEGIN_NOTES
+All thats really important to understand is that git is a robust, distributed source control management system
+
+Its open source technology, anyone can download and run git.
+#+END_NOTES
+
+** Git is distributed
+#+BEGIN_NOTES
+Git is particularly revolutionary because it does not require a single centralized repository, 
+
+each "clone" of a git repository contains the whole history of the repository 
+
+each clone integrates patches from other developers (or researchers)
+
+and push changes out to other developers (or researchers) 
+#+END_NOTES
+
+
+** Patches
+#+BEGIN_NOTES
+To understand how git does this we need to understand the concept of a patch
+
+Patches are small sets of changes that, in software,  fix a bug or implement a small feature.
+
+In their simplest form,  patches are no more than a set of simple instructions to add and remove lines of text
+
+Programmers used to - by in large - pass these patches around via email and this is how open source software evolved
+#+END_NOTES
+
+** A Document is just a History of Patches
+#+BEGIN_NOTES
+So We can think about a document as a history of patches
+
+I create an empty file,  we'll call this version 0 of the file (programmers usually start counting from 0)
+
+I make some changes to the file and I save it,  
 #+END_NOTES
 
 
