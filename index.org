@@ -4,9 +4,24 @@
 #+REVEAL_ROOT: revealjs/
 #+REVEAL_HLEVEL: 1
 #+REVEAL_EXTRA_CSS: styles.css
+#+REVEAL_POSTAMBLE: 
 
-* Reproducible Research
+* License                                                          :noexport:
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/deed.en_US.
+
+* REPRODUCIBLE RESEARCH
 open access, open data, open tools and metrics
+
+#+BEGIN_HTML
+</br>
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" />
+</a>
+<div style="font-size:18px;">
+This work by <a xmlns:cc="http://creativecommons.org/ns#" href="http://github.com/kotfic" property="cc:attributionName" rel="cc:attributionURL">Christopher Kotfila</a> </br>
+is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>
+</div>
+#+END_HTML
 
 * Introduction
 Christopher Kotfila\\
@@ -416,11 +431,17 @@ And in the process - it keeps a complete history of every change that everyone m
 #+END_NOTES
 
 ** Lets see an Example
-[[https://github.com/kotfic/reproducible-research-presentation/blob/gh-pages/index.html][reproducible-research-presentation]]
+[[https://github.com/kotfic/reproducible-research-presentation/blob/gh-pages/index.html#L849-852][reproducible-research-presentation]]
 #+BEGIN_NOTES
 So This presentation is hosted on Github and version controlled with Git
 
 Its an HTML file and it uses a javascript library called "reveal.js"
+
+And here it gets a little freaky,  because you guys can actually see my notes
+
+[Show History,  Show Comment, Show Diff, Show File @ Rev]
+
+[Use: "Cleaning up argument for technologies role in reproducibile research"]
 
 
 #+END_NOTES
