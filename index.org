@@ -19,11 +19,10 @@ Graduated last spring with an MSIS from here at UAlbany
 
 Focused primarily on scholarly communication and open access
 
-Last 10 years -amature/professional software developer
+Professional background is as a software developer
 
-both in private sector doing web application development
+Primarily working with open source tools and in the open source community
 
-and in academia as a research assistant.
 #+END_NOTES
 ** That's a long title
 Are you really going to talk about all that in 30 minutes?
@@ -33,11 +32,10 @@ So the answer of course is no.
 
 This talk is going to focus on reproducible research
 
-cast it in the light of some problems that software engineers have been facing for a number of years
+In particular I'm going to be talking about how tools that software developers have created 
 
-and then really what I'm really hoping is that I'll get a chance to show you some really cool tools that have emerged in the last 5 to 10 years
+can help to solve the so-called reporducibility crisis
 
-and then talk about how these tools relate to open access and open data. 
 #+END_NOTES
 
 ** Caveat 
@@ -87,15 +85,15 @@ As an initial exercize I set out to reproduce a well performing system in a part
 
 * So It turns out...
 #+BEGIN_NOTES
-You can probably guess from the title of the talk,  this did not go as planned.
+So it turns out,  this wasn't really a great plan -
 
-The system itself is gone - emailed the authors,  they were extreamly helpful
+The system is unrecoverable, 
 
-but it was stored on a server they no longer have access too.
+and sadly (for me at least) un-reproducible.
 
-the system, the solution in its most tangible form, is gone.
+This is the experience that got me interested in the topic 
 
-This brings us to
+so lets talk a little more about some of the background
 
 #+END_NOTES
 
@@ -105,16 +103,19 @@ This brings us to
 #+BEGIN_NOTES
 Fundimentally rooted in scientific skepticism. 
 
-Findings may be interesting - but if they can't be reproduced by third parties in normalalized settings 
+Findings may be interesting - but if they can't be reproduced by other researchers in normalalized settings 
 
-Then we're obligated to "take the word of" researchers 
+Then those findings are suspect - they don't meet the "bar" of reproducibility
 
-rather than building on a firm foundation of findings that meet the bar of reproducibility
+Which brings us to our first point:
 #+END_NOTES
 
 * Reproducibility creates Credibility 
+#+BEGIN_NOTES
 
-* Technology enables reproducibility 
+#+END_NOTES
+
+* Technology enables Reproducibility
 #+BEGIN_NOTES
 Technology has traditionally enabled reproducibility
 #+END_NOTES
@@ -130,51 +131,41 @@ Today we face a new distribution mechanism:
 
 #+END_NOTES
 
-
-* The Internet
-** TODO finish notes and trasition for this slide
+* Technology makes Reproducibility hard
 #+BEGIN_NOTES
+Computational science has enabled great advances in human knowledge - 
 
-Printing press is the technology that enables the goals of reproducability (as Shirky poitns out - some 150 years later)
-Internet and modern computing is the technology that creates the current threat to the =Credability= of the research process
-But Technology can also help to solve the problem it is creating.
-#+END_NOTES
+Current mechanisms for distributing scientific findings are insufficient
 
-* Computational Science
-#+BEGIN_NOTES
-While publishers and librarians come to grips with how to best utilize this new distribution mechanism (ie. Open Access)
+Analysis and interpretation may still fit on 9 pages (not including references)
 
-Researchers have been struggling with how to ensure reproducibility in an environment where computation is becoming the lingua franca. 
+But the data, the systems, the code - these linger and die on servers in campus closets.
 
 #+END_NOTES
 
+* Technology can make Reproducibility easy again
+#+BEGIN_NOTES
+Thankfully technology can make reproducibility easy again
+
+Not just rescuing code by uploading it to repositories
+
+But by brining the entire research process out into the open
+#+END_NOTES
 
 * The Open Science Pipeline 
 #+BEGIN_NOTES
-Really reproducible research spans all the steps between a data source and a publiction. 
+Really, reproducible research is concerned with ALL the steps between a data source and a publiction. 
 
-All the steps involved in obtaining,  scrubing, modeling, interpreting and presenting data. 
+This means obtaining, scrubing, modeling, interpreting and presenting data. 
 
 This doesn't HAVE to be in the context of an open data and open access 
 
 BUT - in this context open reproducible research brings end-to-end transparency to the entire process.
 
-
 #+END_NOTES
 + Open Data
 + Reproducible Research
 + Open Access
-
-
-* Open Reproducible Research
-#+BEGIN_NOTES
-Open Data and Open Access alone are insufficient - Open Reproducible research is a vital part of the pipeline
-
-Those interested in advocating for Open Access should be paying very close attention to the reproducible research movement
-
-soon papers won't be the only thing researchers want and need access too.
-#+END_NOTES
-
 
 * 
 #+BEGIN_QUOTE
@@ -194,27 +185,29 @@ His quote here really captures the kind of reproducibility that is creating what
 #+END_NOTES
 
 * A state of "Crisis"
-#+REVEAL_HTML: <div style="font-size:20px">
+#+REVEAL_HTML: <div style="font-size:16px">
 + 2012 Begley, C. Glenn and Ellis, Lee M. Drug development: Raise standards for preclinical cancer research, Nature
-+ 2011 AAAS annual meeting: Workshop on the digitization of science: Reproducibility and interdisciplinary knowledge transfer.
-+ 2011 Applied mathematics perspectives workshop on reproducible research: Toolsand strategies for scientific computing applied mathematics perspectives.
-+ 2011 SIAM conference on computational science & engineering workshop onverifiable, reproducible computational science.
-+ 2011 SIAM geosciences workshop on reproducible science and open-sourcesoftware in the geosciences
++ 2011 AAAS annual meeting: Workshop on the digitization of science
++ 2011 Applied mathematics perspectives workshop on reproducible research
++ 2011 SIAM conference on computational science & engineering workshop on verifiable, reproducible computational science.
++ 2011 SIAM geosciences workshop on reproducible science and open-source software in the geosciences
 + 2011 Research ethics in biostatistics: Invited panel discussion on the biostatistician’s role in reproducible research.
 + 2010 National science foundation workshop on changing the conduct of science inthe information age summary.
 + 2009 Yale Law School Round Table on Data and Code Sharing 
++ And many others...
 #+REVEAL_HTML: </div>
 
 #+BEGIN_NOTES
-Many of these conferences, papers, and authors have proposed tentative solutions that span a spectrum 
+There has been a swath of conferences and papers in the last few years focusing on the "credibility crisis" that stems from reproducibility issues in the computational sciences
 
-from technical implementations of code repositories 
+Not to mention a growing amount of attention from the popular media
 
-to policy recommendations that seek to support socio-cultural change in the academic community.
+proposed solutions run the gamit from technical implementations to to policy recommendations 
+
 #+END_NOTES
 
 
-* Some Examples
+* Some Proposed Solutions
 + [[http://runmycode.org/][RunMyCode.org]]
 + [[http://www.stat.uni-muenchen.de/~leisch/Sweave/][Sweave]]
 + [[https://openscienceframework.org/][Open Science Framework]]
@@ -223,11 +216,11 @@ to policy recommendations that seek to support socio-cultural change in the acad
 #+BEGIN_NOTES
 Of course there are many many more examples 
 
-but what I'd like to humbly suggest,  is that at least from a technical perspective,  this is already a solved problem.
+but what I'd like to humbly suggest here in this presentation,  
 
-And - that there are STRONG examples in the open source software development community
+is that there are STRONG examples in the open source software development community
 
-for how resolve the socio-cultural aspects of the computational reproducibility problem.
+for how resolve the *technical* and *socio-cultural* aspects of the computational reproducibility problem.
 
 #+END_NOTES
 
@@ -575,6 +568,23 @@ title(main="Autos", col.main="red", font.main=4)
 
 
 https://github.com/kotfic/reproducible-research-presentation/blob/gh-pages/index.html#L590-592
+
+** The Internet
+*** TODO finish notes and trasition for this slide
+#+BEGIN_NOTES
+
+Printing press is the technology that enables the goals of reproducability (as Shirky poitns out - some 150 years later)
+Internet and modern computing is the technology that creates the current threat to the =Credability= of the research process
+But Technology can also help to solve the problem it is creating.
+#+END_NOTES
+
+** Computational Science
+#+BEGIN_NOTES
+While publishers and librarians come to grips with how to best utilize this new distribution mechanism (ie. Open Access)
+
+Researchers have been struggling with how to ensure reproducibility in an environment where computation is becoming the lingua franca. 
+
+#+END_NOTES
 
 
 * Tasks                                                            :noexport:
