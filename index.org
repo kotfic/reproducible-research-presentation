@@ -483,6 +483,9 @@ but ANYONE can make a copy of your work and start thier own line of development
 ** Open Access
 #+ATTR_REVEAL: :frag roll-in
 In fact - People are already publishing [[https://github.com/timchurches/meta-analyses/blob/master/benefits-of-reproducible-research/benefits-of-reproducible-research.md][articles]] on Github.
+#+ATTR_REVEAL: :frag roll-in
+Local governments are using Github to publish municipal [[https://github.com/blog/1657-introducing-government-github-com][data and laws]]
+
 
 #+BEGIN_NOTES
 Github is a world where "Open is the Default"
@@ -505,7 +508,7 @@ Even though I might not have direct access to modify your code,  I can make a co
 If my changes end up having wide applicability,  I can ask you, the original author to accept my changes BACK into the original project.
 #+END_NOTES
 
-** to Research is to Fork
+** To Research is to Fork
 #+BEGIN_NOTES
 Researchers Fork in this way all the time. 
 
@@ -526,6 +529,7 @@ They will need tools that support capturing the ENTIRE process by which they ari
 
 And venues that support publication of these kinds of histories.
 #+END_NOTES
+
 
 * Oh yeah... The Metrics
 Lets look at [[https://github.com/git/git][Git]]
