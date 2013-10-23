@@ -86,7 +86,7 @@ In particular I'm going to be talking about how tools that software developers h
 </p>
 
 <p>
-can help to solve the so-called reporducibility crisis
+can help to solve some of the reproducibility issues that modern computational scientests face 
 </p>
 </aside>
 </section>
@@ -95,11 +95,9 @@ can help to solve the so-called reporducibility crisis
 <h3>Caveat</h3>
 <blockquote>
 <p>
-"Release early, release often"<sup><a id="fnr.1" name="fnr.1" class="footref" href="#fn.1">1</a></sup>
+"Release early, release often" Eric Raymond 1997
 </p>
 </blockquote>
-
-<sup id="fn.1" style="font-size:18px;"> [1] Eric S. Raymond, The Cathedral and the Bazaar (1997) </sup>
 
 <aside class="notes">
 <p>
@@ -107,11 +105,15 @@ So there is a relatively well established philosophy in software development "Re
 </p>
 
 <p>
-In software this means,  get your program out there as soon as possible and let people start giving you feedback
+In software this means,  get your program out there as soon as possible even if it has rough edges 
 </p>
 
 <p>
-This presentation emerges from a relatively new interest in the topic 
+The goal is to get feedback as soon as possible
+</p>
+
+<p>
+This presentation emerges from a relatively new interest in this topic 
 </p>
 
 <p>
@@ -151,7 +153,7 @@ This is done primarily with natural language process tools (ie.  computer progra
 </p>
 
 <p>
-As an initial exercize I set out to reproduce a well performing system in a particular challenge that tried to identify whether patients had obesity based on the free-form text in their medical record.
+As an initial exercize I set out to reproduce a well performing system in a particular NLP challenge that tried to identify whether patients had obesity based on the free-form text in their medical record.
 </p>
 </aside>
 </section>
@@ -165,28 +167,63 @@ As an initial exercize I set out to reproduce a well performing system in a part
 <section id="sec-4-1" >
 
 <h3>reproduce the system based on the description in the paper,</h3>
+<aside class="notes">
+<p>
+reproduce the system based on the description in the paper
+</p>
+</aside>
 
 </section>
 <section id="sec-4-2" >
 
 <h3>try to identify systematic errors</h3>
+<aside class="notes">
+<p>
+try to identify systematic errors
+</p>
+</aside>
+
 </section>
 <section id="sec-4-3" >
 
 <h3>correct those errors</h3>
+<aside class="notes">
+<p>
+correct those errors
+</p>
+</aside>
+
 </section>
 <section id="sec-4-4" >
 
 <h3>publish in a prestigious journal</h3>
+<aside class="notes">
+<p>
+publish in a prestigious journal
+</p>
+</aside>
+
 </section>
 <section id="sec-4-5" >
 
 <h3>get a tenure-track position at a respected university</h3>
+<aside class="notes">
+<p>
+get a tenure-track position at a respected university
+</p>
+</aside>
+
 </section>
 <section id="sec-4-6" >
 
 <h3>live happily ever afer</h3>
+<aside class="notes">
+<p>
+live happily ever afer
+</p>
+</aside>
 </section>
+
 </section>
 <section>
 <section id="sec-5" >
@@ -198,11 +235,11 @@ So it turns out,  this wasn't really a great plan -
 </p>
 
 <p>
-The code is unavailable-  and sadly un-reproducible.
+I contacted the authors - the code is unavailable-  and sadly irreproducible.
 </p>
 
 <p>
-So naively - This was a complete shock to me - 
+So maybe naively - This was a complete shock to me - 
 </p>
 
 <p>
@@ -214,7 +251,7 @@ so this presentation  is really a product of that experience and a desire to und
 </p>
 
 <p>
-and how to fix it
+and to think about some of the ways we can fix this
 </p>
 </aside>
 </section>
@@ -256,7 +293,7 @@ I want to know HOW it was done WHY it was done and what were the results?
 </p>
 
 <p>
-Reproducibility is about communicating with sufficient detail,  that I can verify these things for myself.
+Reproducibility is about communicating with sufficient detail, so  that I can verify these things for myself.
 </p>
 </aside>
 </section>
@@ -271,11 +308,11 @@ Technology has traditionally enabled reproducibility in research by improving ou
 </p>
 
 <p>
-Who What When How and Why with eachother.
+thes 'Who' 'What' 'When' 'How' and 'Why' with eachother.
 </p>
 
 <p>
-And the first technological advance that really enabled reproducibility was:
+And the first technological advance that really enabled this kind of reproducibility was:
 </p>
 </aside>
 </section>
@@ -317,11 +354,7 @@ And on the very first page, very first sentence, Henry Oldenburg writes:
 </p>
 
 <p>
-From the very begining scholarly communication has been about transfering findings to others in a way that can be reproduced
-</p>
-
-<p>
-and importaintly built upon.
+From the very begining scholarly communication has been about transfering findings to others in a way that can be reproduced and built upon.
 </p>
 </aside>
 </section>
@@ -345,11 +378,11 @@ Analysis and interpretation may still fit on 9 pages (including references)
 </p>
 
 <p>
-But the data, the systems, the code - the research in its gory detail
+But the data, the systems, the code - the research in its gorry detail
 </p>
 
 <p>
-these things linger and die on servers in campus closets.
+these things tend linger and die on servers in campus closets.
 </p>
 </aside>
 </section>
@@ -368,7 +401,7 @@ Not just by rescuing code and making it available online&#x2026;
 </p>
 
 <p>
-But by brining the entire evolution of a publication out into the open.
+But by capturing and brining the entire evolution of a publication out into the open.
 </p>
 </aside>
 </section>
@@ -379,7 +412,7 @@ But by brining the entire evolution of a publication out into the open.
 <h2>The Open Science Pipeline</h2>
 <aside class="notes">
 <p>
-And so really, reproducible research is concerned with ALL the steps between a data source and a publiction. 
+Reproducible research is concerned with ALL the steps between a data source and a publiction. 
 </p>
 
 <p>
@@ -415,15 +448,15 @@ David Donoho, 1998.
 
 <aside class="notes">
 <p>
-David Donoho is one of the reseachers over at Stanford who has been actively involved with the reproducibility movement for decades
+David Donoho is one of the reseachers over at Stanford who has been actively involved with the reproducibility movement for a number of decades
 </p>
 
 <p>
-As Donoho puts it:
+As Donoho puts it: “The idea is: An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete &#x2026; set of instructions [and data] which generated the figures.”
 </p>
 
 <p>
-Modern methodologies are being deeply influenced by computation - but this type of reproducibility continues to be rare.
+Modern methodologies across disciplines are being deeply influenced by computation - but this type of reproducibility continues to be rare.
 </p>
 </aside>
 </section>
@@ -438,7 +471,7 @@ Reproducibility creates credibility
 </p>
 
 <p>
-A finding only deserves to be published, read, cited if it can be reproduced
+A finding really only deserves to be published, read, and cited if it can be reproduced
 </p>
 
 <p>
@@ -446,7 +479,7 @@ a lack of reproducibility introduces uncertainty.
 </p>
 
 <p>
-a sufficient lack of this kind of uncertainty and you create a crisis of confidence - 
+a sufficient lack of this kind of uncertainty and you create a crisis of confidence in a domain 
 </p>
 
 <p>
@@ -484,7 +517,7 @@ and reciently there have been several high profile cases of irreproducible resul
 
 <aside class="notes">
 <p>
-There has been a swath of conferences and papers in the last few years focusing on the "credibility crisis" that stems from reproducibility issues in the computational sciences
+There have been a swath of conferences and papers in the last few years focusing on the "credibility crisis" of reproducibility in the computational sciences
 </p>
 
 <p>
@@ -496,7 +529,6 @@ proposed solutions run the gamit from technical implementations to to policy rec
 </p>
 </aside>
 </section>
-
 </section>
 <section>
 <section id="sec-17" >
@@ -510,8 +542,6 @@ proposed solutions run the gamit from technical implementations to to policy rec
 <li><a href="https://openscienceframework.org/">Open Science Framework</a>
 </li>
 <li><a href="http://www.stanford.edu/~vcs/Papers.html">Victoria Stodden's work</a>
-</li>
-<li>&#x2026;
 </li>
 </ul>
 
@@ -533,7 +563,6 @@ for how resolve the <b>technical</b> and <b>socio-cultural</b> aspects of the co
 </p>
 </aside>
 </section>
-
 </section>
 <section>
 <section id="sec-18" >
@@ -568,7 +597,7 @@ Software developers are tool oriented kind of people
 </p>
 
 <p>
-They build the software tools you use every day and they use highly specialized tools to do it
+They build the software tools that you use every day - and they use highly specialized tools to do it
 </p>
 
 <p>
@@ -576,7 +605,7 @@ if theres a problem,
 </p>
 
 <p>
-the first thing a software developer thinks is "is there a tool that solves this problem already?"
+the first thing a software developer thinks is "is there a tool that already solves this problem?"
 </p>
 
 <p>
@@ -594,11 +623,11 @@ And if NOT - "can I build a tool that solves this problem?"
 </p>
 <aside class="notes">
 <p>
-Software is complicated and historically trending TOWARDS more complexity,  not AWAY from it
+Software is complicated and is historically trending towards MORE complexity rather than LESS complexity
 </p>
 
 <p>
-But this complexity is just a problem - and so developers have done what developers know how to do
+But this complexity is a problem just like any other problem to a software developer - and so developers have done what developers do best
 </p>
 
 <p>
@@ -616,7 +645,7 @@ build software to solve the problem of managing software's growing complexity.
 </p>
 <aside class="notes">
 <p>
-Data has to be obtained and investigates, 
+Data has to be obtained and investigated, 
 </p>
 
 <p>
@@ -628,7 +657,11 @@ Hours of iteration, exploration, and dead ends go into final publications,
 </p>
 
 <p>
-Keeping track of all the behind the scenes work involves a lot of complex processes
+Keeping track of all the behind the scenes work involves a lot of complex processes - 
+</p>
+
+<p>
+frequently adhoc processes and knowledge organization
 </p>
 </aside>
 </section>
@@ -703,7 +736,6 @@ culturally diverse
 </li>
 </ul>
 </section>
-
 </section>
 <section>
 <section id="sec-24" >
@@ -715,7 +747,11 @@ The success of an open software development project is BASED on its ability to b
 </p>
 
 <p>
-open source software DEVELOPERS have produced tools that are optimized to ease this distribution.
+open source software DEVELOPERS have produced tools that are optimized to manage the complexity of code and documentation
+</p>
+
+<p>
+and ease the distribution of this code and documentation.
 </p>
 
 <p>
@@ -723,7 +759,6 @@ Because of the similarities between open source software developers and research
 </p>
 </aside>
 </section>
-
 </section>
 <section>
 <section id="sec-25" >
@@ -747,7 +782,6 @@ and Github is the response to the social-cultural issues
 </p>
 </aside>
 </section>
-
 </section>
 <section>
 <section id="sec-26" >
@@ -777,7 +811,7 @@ But if you're interested i'll be available to talk to you ad-nauseum after the p
 <h3>Git is a Source Control Management Systems</h3>
 <aside class="notes">
 <p>
-So git is apart of a class of software systems called Source Control Management Systems
+So git is apart of a class of software systems called Source Control Management Systems, some times called version control systems
 </p>
 
 <p>
@@ -813,7 +847,7 @@ So maybe you've seen this problem before&#x2026;
 </p>
 
 <p>
-keeping track of changes in a single document is hard
+keeping track of versions of a single document is hard
 </p>
 
 <p>
@@ -842,11 +876,11 @@ So Git helps you keep track of <b>Who</b> did <b>What</b> <b>When</b> and <b>Why
 </p>
 
 <p>
-While a methodology section gives a broad overview of how an experiment was conducted
+While a methodology section can give you a broad overview of how an experiment was conducted
 </p>
 
 <p>
-Git can provide a blow by blow, hour by hour account of how the research evolved. 
+Git can provide a blow by blow, even hour by hour account of how the research evolved. 
 </p>
 </aside>
 </section>
@@ -860,6 +894,10 @@ Trying to understand exactly how git does this is where things start to get jarg
 
 <p>
 What its important to capture here is that a file (or a 100 files,  or 100,000 files) are just a recorded serise of small changes over time
+</p>
+
+<p>
+The document you have saved on your hard drive now is just an empty document plus the whole history of changes that you've made to that document.
 </p>
 
 <p>
@@ -879,11 +917,11 @@ And in the process - it keeps a complete history of every change that everyone m
 </p>
 <aside class="notes">
 <p>
-So This presentation is hosted on Github and version controlled with Git
+So As you can see - this presentation is just HTML
 </p>
 
 <p>
-Its an HTML file and it uses a javascript library called "reveal.js"
+it uses a javascript library called "reveal.js"  and is hosted on Github and version controlled with Git
 </p>
 
 <p>
@@ -913,11 +951,11 @@ All of this is contained with in a "Repository"  which holds the files under ver
 </p>
 <aside class="notes">
 <p>
-So what we were just looking at was actually Github - not strictly "Git"
+So what we were just looking at was actually Github - not strictly "Git" Github provides a nice web based interface to git
 </p>
 
 <p>
-Github is an online community that is built around and ontop of git. 
+Git is the proglram - Github is an online community that is built around and ontop of git. 
 </p>
 
 <p>
@@ -934,15 +972,15 @@ Githubs model is really innovative because they offer free git repository hostin
 </p>
 
 <p>
-as long as the repository is created is publicly readable
+as long as the repository is created publicly readable
 </p>
 
 <p>
-as a repository author you can descide who has direct write access,  
+as a repository author you can descide who has direct write access, who are your direct collaborators  
 </p>
 
 <p>
-but ANYONE can make a copy of your work and start thier own line of development
+but ANYONE can make a copy of your work and start thier own line of development, Anyone can become an indirect collaborator
 </p>
 </aside>
 </section>
@@ -1038,7 +1076,6 @@ And venues that support publication of these kinds of histories.
 </p>
 </aside>
 </section>
-
 </section>
 <section>
 <section id="sec-28" >

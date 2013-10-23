@@ -51,25 +51,23 @@ This talk is going to focus on reproducible research
 
 In particular I'm going to be talking about how tools that software developers have created 
 
-can help to solve the so-called reporducibility crisis
+can help to solve some of the reproducibility issues that modern computational scientests face 
 
 #+END_NOTES
 
 ** Caveat 
 #+BEGIN_QUOTE
-"Release early, release often"[1]
+"Release early, release often" Eric Raymond 1997
 #+END_QUOTE
  
-#+BEGIN_HTML
-<sup id="fn.1" style="font-size:18px;"> [1] Eric S. Raymond, The Cathedral and the Bazaar (1997) </sup>
-#+END_HTML
-
 #+BEGIN_NOTES
 So there is a relatively well established philosophy in software development "Release early release often"
 
-In software this means,  get your program out there as soon as possible and let people start giving you feedback
+In software this means,  get your program out there as soon as possible even if it has rough edges 
 
-This presentation emerges from a relatively new interest in the topic 
+The goal is to get feedback as soon as possible
+
+This presentation emerges from a relatively new interest in this topic 
 
 Some of the ideas here are still a little rough,  but in true Open Source fashion,  I hope you'll help me refine them. 
 
@@ -88,31 +86,47 @@ identifying systematic issues at hospitals or with health care processes - lots 
 
 This is done primarily with natural language process tools (ie.  computer programs and processes) 
 
-As an initial exercize I set out to reproduce a well performing system in a particular challenge that tried to identify whether patients had obesity based on the free-form text in their medical record.
+As an initial exercize I set out to reproduce a well performing system in a particular NLP challenge that tried to identify whether patients had obesity based on the free-form text in their medical record.
 
 #+END_NOTES
 * The idea was...
 ** reproduce the system based on the description in the paper,
-
+#+BEGIN_NOTES
+reproduce the system based on the description in the paper
+#+END_NOTES
 ** try to identify systematic errors
+#+BEGIN_NOTES
+try to identify systematic errors
+#+END_NOTES
 ** correct those errors
+#+BEGIN_NOTES
+correct those errors
+#+END_NOTES
 ** publish in a prestigious journal
+#+BEGIN_NOTES
+publish in a prestigious journal
+#+END_NOTES
 ** get a tenure-track position at a respected university
+#+BEGIN_NOTES
+get a tenure-track position at a respected university
+#+END_NOTES
 ** live happily ever afer
-
+#+BEGIN_NOTES
+live happily ever afer
+#+END_NOTES
 * So It turns out...
 #+BEGIN_NOTES
 So it turns out,  this wasn't really a great plan -
 
-The code is unavailable-  and sadly un-reproducible.
+I contacted the authors - the code is unavailable-  and sadly irreproducible.
 
-So naively - This was a complete shock to me - 
+So maybe naively - This was a complete shock to me - 
 
 The publication was open access - which is great - but in the end the publication wasn't enough
 
 so this presentation  is really a product of that experience and a desire to understand why it happened
 
-and how to fix it
+and to think about some of the ways we can fix this
 
 #+END_NOTES
 
@@ -136,7 +150,7 @@ its about communicating a methodology - as a skeptic I want to know  WHO did WHA
 
 I want to know HOW it was done WHY it was done and what were the results?
 
-Reproducibility is about communicating with sufficient detail,  that I can verify these things for myself.
+Reproducibility is about communicating with sufficient detail, so  that I can verify these things for myself.
 
 #+END_NOTES
 
@@ -144,9 +158,9 @@ Reproducibility is about communicating with sufficient detail,  that I can verif
 #+BEGIN_NOTES
 Technology has traditionally enabled reproducibility in research by improving our ability to communicate 
 
-Who What When How and Why with eachother.
+thes 'Who' 'What' 'When' 'How' and 'Why' with eachother.
 
-And the first technological advance that really enabled reproducibility was:
+And the first technological advance that really enabled this kind of reproducibility was:
 #+END_NOTES
 
 * 
@@ -166,9 +180,7 @@ And on the very first page, very first sentence, Henry Oldenburg writes:
 
 "Whereas there is nothing more necessary for promoting the improvement of Philosophical Matters, than the communicating [... of] such things as are discovered or put in practice by others."
 
-From the very begining scholarly communication has been about transfering findings to others in a way that can be reproduced
-
-and importaintly built upon.
+From the very begining scholarly communication has been about transfering findings to others in a way that can be reproduced and built upon.
 
 #+END_NOTES
 * Modern Technologies make Reproducibility hard
@@ -179,9 +191,9 @@ But historical mechanisms for communicating these new kinds of scientific findin
 
 Analysis and interpretation may still fit on 9 pages (including references)
 
-But the data, the systems, the code - the research in its gory detail
+But the data, the systems, the code - the research in its gorry detail
 
-these things linger and die on servers in campus closets.
+these things tend linger and die on servers in campus closets.
 #+END_NOTES
 
 * Modern Technologies can make Reproducibility easy again
@@ -190,12 +202,12 @@ Thankfully technology can make reproducibility easy again
 
 Not just by rescuing code and making it available online...
 
-But by brining the entire evolution of a publication out into the open.
+But by capturing and brining the entire evolution of a publication out into the open.
 #+END_NOTES
 
 * The Open Science Pipeline 
 #+BEGIN_NOTES
-And so really, reproducible research is concerned with ALL the steps between a data source and a publiction. 
+Reproducible research is concerned with ALL the steps between a data source and a publiction. 
 
 This means obtaining, scrubing, modeling, interpreting and presenting data. 
 
@@ -216,22 +228,22 @@ David Donoho, 1998.
 #+END_QUOTE
 
 #+BEGIN_NOTES
-David Donoho is one of the reseachers over at Stanford who has been actively involved with the reproducibility movement for decades
+David Donoho is one of the reseachers over at Stanford who has been actively involved with the reproducibility movement for a number of decades
 
-As Donoho puts it:
+As Donoho puts it: “The idea is: An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete ... set of instructions [and data] which generated the figures.”
 
-Modern methodologies are being deeply influenced by computation - but this type of reproducibility continues to be rare.
+Modern methodologies across disciplines are being deeply influenced by computation - but this type of reproducibility continues to be rare.
 #+END_NOTES
 
 * Reproducibility creates Credibility 
 #+BEGIN_NOTES
 Reproducibility creates credibility
 
-A finding only deserves to be published, read, cited if it can be reproduced
+A finding really only deserves to be published, read, and cited if it can be reproduced
 
 a lack of reproducibility introduces uncertainty. 
 
-a sufficient lack of this kind of uncertainty and you create a crisis of confidence - 
+a sufficient lack of this kind of uncertainty and you create a crisis of confidence in a domain 
 
 and reciently there have been several high profile cases of irreproducible results
 #+END_NOTES
@@ -250,7 +262,7 @@ and reciently there have been several high profile cases of irreproducible resul
 #+REVEAL_HTML: </div>
 
 #+BEGIN_NOTES
-There has been a swath of conferences and papers in the last few years focusing on the "credibility crisis" that stems from reproducibility issues in the computational sciences
+There have been a swath of conferences and papers in the last few years focusing on the "credibility crisis" of reproducibility in the computational sciences
 
 Not to mention a growing amount of attention from the popular media
 
@@ -258,13 +270,11 @@ proposed solutions run the gamit from technical implementations to to policy rec
 
 #+END_NOTES
 
-
 * Some Proposed Solutions
 + [[http://runmycode.org/][RunMyCode.org]]
 + [[http://www.stat.uni-muenchen.de/~leisch/Sweave/][Sweave]]
 + [[https://openscienceframework.org/][Open Science Framework]]
 + [[http://www.stanford.edu/~vcs/Papers.html][Victoria Stodden's work]]
-+ ...
 
 #+BEGIN_NOTES
 Of course there are many many more examples 
@@ -276,7 +286,6 @@ is that there are STRONG examples in the open source software development commun
 for how resolve the *technical* and *socio-cultural* aspects of the computational reproducibility problem.
 
 #+END_NOTES
-
 
 * Open Source Software Developers
 #+BEGIN_NOTES
@@ -294,11 +303,11 @@ my code is broken.
 #+BEGIN_NOTES
 Software developers are tool oriented kind of people
 
-They build the software tools you use every day and they use highly specialized tools to do it
+They build the software tools that you use every day - and they use highly specialized tools to do it
 
 if theres a problem,  
 
-the first thing a software developer thinks is "is there a tool that solves this problem already?"
+the first thing a software developer thinks is "is there a tool that already solves this problem?"
 
 And if NOT - "can I build a tool that solves this problem?"
 #+END_NOTES
@@ -306,9 +315,9 @@ And if NOT - "can I build a tool that solves this problem?"
 * Software
 (is complicated)
 #+BEGIN_NOTES
-Software is complicated and historically trending TOWARDS more complexity,  not AWAY from it
+Software is complicated and is historically trending towards MORE complexity rather than LESS complexity
 
-But this complexity is just a problem - and so developers have done what developers know how to do
+But this complexity is a problem just like any other problem to a software developer - and so developers have done what developers do best
 
 build software to solve the problem of managing software's growing complexity.
 #+END_NOTES
@@ -316,13 +325,15 @@ build software to solve the problem of managing software's growing complexity.
 * Reproducibility
 (is complicated)
 #+BEGIN_NOTES
-Data has to be obtained and investigates, 
+Data has to be obtained and investigated, 
 
 Models have to be created and discarded, 
 
 Hours of iteration, exploration, and dead ends go into final publications,
 
-Keeping track of all the behind the scenes work involves a lot of complex processes
+Keeping track of all the behind the scenes work involves a lot of complex processes - 
+
+frequently adhoc processes and knowledge organization
 #+END_NOTES
 
 * Software Tools
@@ -353,16 +364,16 @@ culturally diverse
 + interpret
 + and display data
 
-
 * Tools for Reproducible Research
 #+BEGIN_NOTES
 The success of an open software development project is BASED on its ability to be reproduced across many systems
 
-open source software DEVELOPERS have produced tools that are optimized to ease this distribution.
+open source software DEVELOPERS have produced tools that are optimized to manage the complexity of code and documentation
+
+and ease the distribution of this code and documentation.
 
 Because of the similarities between open source software developers and researchers many of these tools can be recast in light of the research process.
 #+END_NOTES
-
 
 * Git and Github
 #+BEGIN_NOTES
@@ -374,7 +385,6 @@ Git is the response to the technical issues
 
 and Github is the response to the social-cultural issues
 #+END_NOTES
-
 
 * Git 
 #+BEGIN_NOTES
@@ -389,10 +399,9 @@ But if you're interested i'll be available to talk to you ad-nauseum after the p
 
 ** Git is a Source Control Management Systems
 #+BEGIN_NOTES
-So git is apart of a class of software systems called Source Control Management Systems
+So git is apart of a class of software systems called Source Control Management Systems, some times called version control systems
 
 The Goal of any source control management system is keep a complete history of the changes that are made to a file or files
-
 
 #+END_NOTES
 ** Maybe you've seen this problem before
@@ -411,7 +420,7 @@ Final submitted revised.docx \\
 #+BEGIN_NOTES
 So maybe you've seen this problem before...
 
-keeping track of changes in a single document is hard
+keeping track of versions of a single document is hard
 
 keeping track of changes from a group of authors and reviewers in a single document is even harder
 
@@ -426,9 +435,9 @@ and you might as well pack up and go home
 #+BEGIN_NOTES
 So Git helps you keep track of *Who* did *What* *When* and *Why* in excruciating detail
 
-While a methodology section gives a broad overview of how an experiment was conducted
+While a methodology section can give you a broad overview of how an experiment was conducted
 
-Git can provide a blow by blow, hour by hour account of how the research evolved. 
+Git can provide a blow by blow, even hour by hour account of how the research evolved. 
 #+END_NOTES
 
 ** This is where Git gets complicated
@@ -436,6 +445,8 @@ Git can provide a blow by blow, hour by hour account of how the research evolved
 Trying to understand exactly how git does this is where things start to get jargony.
 
 What its important to capture here is that a file (or a 100 files,  or 100,000 files) are just a recorded serise of small changes over time
+
+The document you have saved on your hard drive now is just an empty document plus the whole history of changes that you've made to that document.
 
 Git can pass these changes around to other collaborators and make sure *THIER* copy of a document stays in sync with *YOUR* copy of that document
 
@@ -445,9 +456,9 @@ And in the process - it keeps a complete history of every change that everyone m
 ** Lets see an Example
 [[https://github.com/kotfic/reproducible-research-presentation/blob/gh-pages/index.html#L876-879][reproducible-research-presentation]]
 #+BEGIN_NOTES
-So This presentation is hosted on Github and version controlled with Git
+So As you can see - this presentation is just HTML
 
-Its an HTML file and it uses a javascript library called "reveal.js"
+it uses a javascript library called "reveal.js"  and is hosted on Github and version controlled with Git
 
 And here it gets a little freaky,  because you guys can actually see my notes
 
@@ -462,9 +473,9 @@ All of this is contained with in a "Repository"  which holds the files under ver
 * Github 
 "Build better software, together"
 #+BEGIN_NOTES
-So what we were just looking at was actually Github - not strictly "Git"
+So what we were just looking at was actually Github - not strictly "Git" Github provides a nice web based interface to git
 
-Github is an online community that is built around and ontop of git. 
+Git is the proglram - Github is an online community that is built around and ontop of git. 
 
 Over 4 million people use github to host and share their code with eachother.
 
@@ -473,11 +484,11 @@ Over 4 million people use github to host and share their code with eachother.
 #+BEGIN_NOTES
 Githubs model is really innovative because they offer free git repository hosting 
 
-as long as the repository is created is publicly readable
+as long as the repository is created publicly readable
 
-as a repository author you can descide who has direct write access,  
+as a repository author you can descide who has direct write access, who are your direct collaborators  
 
-but ANYONE can make a copy of your work and start thier own line of development
+but ANYONE can make a copy of your work and start thier own line of development, Anyone can become an indirect collaborator
 #+END_NOTES
 
 ** Open Access
@@ -529,7 +540,6 @@ They will need tools that support capturing the ENTIRE process by which they ari
 
 And venues that support publication of these kinds of histories.
 #+END_NOTES
-
 
 * Oh yeah... The Metrics
 Lets look at [[https://github.com/git/git][Git]]
