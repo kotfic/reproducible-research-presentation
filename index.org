@@ -481,12 +481,17 @@ but ANYONE can make a copy of your work and start thier own line of development
 #+END_NOTES
 
 ** Open Access
+#+ATTR_REVEAL: :frag roll-in
+In fact - People are already publishing [[https://github.com/timchurches/meta-analyses/blob/master/benefits-of-reproducible-research/benefits-of-reproducible-research.md][articles]] on Github.
+
 #+BEGIN_NOTES
 Github is a world where "Open is the Default"
 
 and I think you can make a pretty defensible argument that Github is the single largest open access publication platform that currently exists. 
 
-In particular it provides a particularly fascinating feature that correlates nicely with research workflows.
+[frag]
+
+In particular Github provides some fascinating feature that correlates nicely with research workflows.
 #+END_NOTES
 
 ** Forking
@@ -613,7 +618,6 @@ http://www.nature.com/news/2010/101013/full/467753a.html
 #+END_NOTES
 **** Elsiver?
 http://www.executablepapers.com/
-
 
 ** Linus's Law
 "given enough eyeballs, all bugs are shallow"; \\ 
@@ -805,7 +809,7 @@ I make some changes to the file and I save it,
 
 ** SCMS are not just for Source Code
 Local [[https://github.com/blog/1657-introducing-government-github-com][governments are already using]] Github \\
-People are already publishing [[https://github.com/timchurches/meta-analyses/blob/master/benefits-of-reproducible-research/benefits-of-reproducible-research.md][articles]].
+
 
 
 * Tasks                                                            :noexport:
