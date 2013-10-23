@@ -443,7 +443,7 @@ And in the process - it keeps a complete history of every change that everyone m
 #+END_NOTES
 
 ** Lets see an Example
-[[https://github.com/kotfic/reproducible-research-presentation/blob/gh-pages/index.html#L849-852][reproducible-research-presentation]]
+[[https://github.com/kotfic/reproducible-research-presentation/blob/gh-pages/index.html#L876-879][reproducible-research-presentation]]
 #+BEGIN_NOTES
 So This presentation is hosted on Github and version controlled with Git
 
@@ -484,7 +484,7 @@ but ANYONE can make a copy of your work and start thier own line of development
 #+ATTR_REVEAL: :frag roll-in
 In fact - People are already publishing [[https://github.com/timchurches/meta-analyses/blob/master/benefits-of-reproducible-research/benefits-of-reproducible-research.md][articles]] on Github.
 #+ATTR_REVEAL: :frag roll-in
-Local governments are using Github to publish municipal [[https://github.com/blog/1657-introducing-government-github-com][data and laws]]
+Local governments are using Github to publish municipal [[http://government.github.com/][data and laws]]
 
 
 #+BEGIN_NOTES
